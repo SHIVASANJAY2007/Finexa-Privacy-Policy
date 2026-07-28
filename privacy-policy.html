@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy | Verano Technologies Private Limited</title>
+<meta name="description" content="The official Privacy Policy of Verano Technologies Private Limited, governing the Verano AI-powered financial planning application, its WhatsApp Business Platform integration, and all associated services. Compliant with GDPR, CCPA/CPRA, India's DPDP Act 2023, UK GDPR and PECR.">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Verano Technologies Private Limited">
+<link rel="canonical" href="https://www.verano.app/privacy-policy">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Privacy Policy | Verano Technologies Private Limited">
+<meta property="og:description" content="How Verano collects, uses, discloses, retains and protects personal information across the Verano web application and WhatsApp Business Platform experience.">
+<meta property="og:url" content="https://www.verano.app/privacy-policy">
+<meta property="og:site_name" content="Verano">
+<meta property="og:locale" content="en_US">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Privacy Policy | Verano Technologies Private Limited">
+<meta name="twitter:description" content="How Verano collects, uses, discloses, retains and protects personal information across web and WhatsApp.">
+
+<style>
+:root{
+  --ink-950:#0e1626;
+  --ink-900:#131c30;
+  --ink-800:#1c2740;
+  --ink-700:#2b3a5c;
+  --paper-50:#f7f4ee;
+  --paper-100:#efe9dd;
+  --brass-500:#b8925a;
+  --brass-600:#9c7644;
+  --slate-500:#5b6b8c;
+  --slate-300:#a9b4cc;
+  --line:#dcd4c2;
+  --ok-green:#3f6b52;
+
+  --bg:var(--paper-50);
+  --bg-elevated:#ffffff;
+  --text:var(--ink-950);
+  --text-muted:#5a5f6b;
+  --card-bg:#ffffff;
+  --card-border:var(--line);
+  --accent:var(--brass-600);
+  --accent-contrast:#ffffff;
+  --nav-bg:rgba(247,244,238,0.86);
+  --shadow:0 1px 2px rgba(14,22,38,.04), 0 8px 24px rgba(14,22,38,.06);
+  --shadow-lg:0 4px 10px rgba(14,22,38,.06), 0 20px 48px rgba(14,22,38,.10);
+  --serif: Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', serif;
+  --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+}
+
+[data-theme="dark"]{
+  --bg:var(--ink-950);
+  --bg-elevated:var(--ink-900);
+  --text:#eef1f8;
+  --text-muted:#a9b0c4;
+  --card-bg:var(--ink-900);
+  --card-border:var(--ink-700);
+  --accent:#d3ab74;
+  --accent-contrast:#0e1626;
+  --nav-bg:rgba(14,22,38,0.86);
+  --shadow:0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.35);
+  --shadow-lg:0 4px 10px rgba(0,0,0,.35), 0 24px 60px rgba(0,0,0,.45);
+}
+
+*,*::before,*::after{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0;
+  font-family:var(--sans);
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.65;
+  transition:background .25s ease, color .25s ease;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;}
+a{color:var(--accent);}
+::selection{background:var(--brass-500);color:#fff;}
+
+/* Skip link */
+.skip-link{
+  position:absolute;left:-999px;top:auto;
+  background:var(--ink-950);color:#fff;padding:.75rem 1.25rem;
+  border-radius:.5rem;z-index:1000;font-weight:600;
+}
+.skip-link:focus{left:1rem;top:1rem;}
+
+/* Progress bar */
+#progress-bar{
+  position:fixed;top:0;left:0;height:3px;width:0%;
+  background:linear-gradient(90deg,var(--brass-500),var(--brass-600));
+  z-index:1200;transition:width .1s linear;
+}
+
+/* Top nav */
+header.topnav{
+  position:sticky;top:0;z-index:1100;
+  background:var(--nav-bg);
+  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--card-border);
+}
+.topnav-inner{
+  max-width:1400px;margin:0 auto;padding:.85rem 1.5rem;
+  display:flex;align-items:center;justify-content:space-between;gap:1rem;
+}
+.brand{display:flex;align-items:center;gap:.6rem;font-family:var(--serif);font-weight:700;font-size:1.15rem;letter-spacing:.02em;color:var(--text);text-decoration:none;}
+.brand svg{flex-shrink:0;}
+.topnav-actions{display:flex;align-items:center;gap:.5rem;}
+.icon-btn{
+  border:1px solid var(--card-border);background:var(--card-bg);color:var(--text);
+  width:2.4rem;height:2.4rem;border-radius:999px;display:flex;align-items:center;justify-content:center;
+  cursor:pointer;transition:transform .15s ease, box-shadow .15s ease;
+}
+.icon-btn:hover{transform:translateY(-1px);box-shadow:var(--shadow);}
+.icon-btn:focus-visible, a:focus-visible, button:focus-visible, summary:focus-visible{
+  outline:3px solid var(--brass-500);outline-offset:2px;
+}
+.print-btn{display:flex;align-items:center;gap:.4rem;font-size:.85rem;font-weight:600;padding:.5rem 1rem;border-radius:999px;border:1px solid var(--card-border);background:var(--card-bg);color:var(--text);cursor:pointer;}
+
+/* Hero */
+.hero{
+  position:relative;overflow:hidden;
+  padding:5.5rem 1.5rem 4rem;
+  text-align:center;
+  border-bottom:1px solid var(--card-border);
+}
+.hero::before{
+  content:"";position:absolute;inset:0;
+  background:
+    radial-gradient(60% 60% at 50% 0%, rgba(184,146,90,.12), transparent 70%);
+  pointer-events:none;
+}
+.seal{
+  width:96px;height:96px;margin:0 auto 1.5rem;
+  border-radius:999px;border:2px solid var(--accent);
+  display:flex;align-items:center;justify-content:center;
+  position:relative;
+}
+.seal::before{
+  content:"";position:absolute;inset:6px;border:1px dashed var(--accent);border-radius:999px;opacity:.6;
+}
+.hero-eyebrow{
+  display:inline-block;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--accent);font-weight:700;margin-bottom:1rem;
+}
+.hero h1{
+  font-family:var(--serif);font-size:clamp(2.1rem,4.5vw,3.4rem);line-height:1.15;margin:.2rem auto 1rem;max-width:16ch;
+}
+.hero p.lede{color:var(--text-muted);max-width:56ch;margin:0 auto 1.5rem;font-size:1.08rem;}
+.hero-meta{display:flex;flex-wrap:wrap;gap:.6rem 1.2rem;justify-content:center;font-size:.85rem;color:var(--text-muted);}
+.hero-meta strong{color:var(--text);}
+
+/* Layout */
+.layout{
+  max-width:1400px;margin:0 auto;padding:2.5rem 1.5rem 6rem;
+  display:grid;grid-template-columns:280px minmax(0,1fr);gap:3rem;align-items:start;
+}
+.sidebar{
+  position:sticky;top:5rem;max-height:calc(100vh - 6rem);overflow-y:auto;
+  padding-right:.5rem;
+}
+.sidebar h2{font-size:.72rem;text-transform:uppercase;letter-spacing:.12em;color:var(--text-muted);margin:0 0 .8rem;}
+.toc-list{list-style:none;margin:0;padding:0;}
+.toc-list li{margin-bottom:.15rem;}
+.toc-list a{
+  display:block;padding:.5rem .7rem;border-radius:.6rem;text-decoration:none;
+  color:var(--text-muted);font-size:.88rem;border-left:2px solid transparent;transition:all .15s ease;
+}
+.toc-list a:hover{background:var(--card-bg);color:var(--text);}
+.toc-list a.active{color:var(--text);font-weight:700;border-left:2px solid var(--accent);background:var(--card-bg);}
+
+main{min-width:0;}
+.intro-card{
+  background:var(--card-bg);border:1px solid var(--card-border);border-radius:1rem;
+  padding:1.6rem 1.8rem;box-shadow:var(--shadow);margin-bottom:2.5rem;
+}
+.intro-card p{margin:.4rem 0;color:var(--text-muted);}
+
+.part{margin-bottom:3.2rem;scroll-margin-top:5.5rem;}
+.part-header{
+  display:flex;align-items:baseline;gap:.9rem;margin-bottom:1.1rem;padding-bottom:.8rem;
+  border-bottom:1px solid var(--card-border);
+}
+.part-number{font-family:var(--serif);font-size:1rem;color:var(--accent);font-weight:700;}
+.part-header h2{font-family:var(--serif);font-size:1.55rem;margin:0;}
+
+details.clause{
+  background:var(--card-bg);border:1px solid var(--card-border);border-radius:.85rem;
+  margin-bottom:.7rem;box-shadow:var(--shadow);overflow:hidden;scroll-margin-top:5.5rem;
+  transition:box-shadow .18s ease, transform .18s ease;
+}
+details.clause[open]{box-shadow:var(--shadow-lg);}
+details.clause summary{
+  cursor:pointer;list-style:none;padding:1rem 1.3rem;font-weight:700;
+  display:flex;align-items:center;gap:.7rem;
+}
+details.clause summary::-webkit-details-marker{display:none;}
+details.clause summary .chev{margin-left:auto;transition:transform .2s ease;flex-shrink:0;color:var(--text-muted);}
+details.clause[open] summary .chev{transform:rotate(90deg);}
+details.clause summary .idx{
+  font-family:var(--mono);font-size:.75rem;color:var(--accent-contrast);background:var(--accent);
+  padding:.15rem .5rem;border-radius:.4rem;flex-shrink:0;
+}
+.clause-body{padding:0 1.3rem 1.2rem 1.3rem;color:var(--text-muted);}
+.clause-body p{margin:0 0 .8rem;}
+.clause-body p:last-child{margin-bottom:0;}
+.clause-body strong{color:var(--text);}
+
+table.dtable{width:100%;border-collapse:collapse;margin:.6rem 0 1rem;font-size:.92rem;}
+table.dtable th, table.dtable td{border:1px solid var(--card-border);padding:.55rem .7rem;text-align:left;}
+table.dtable th{background:var(--bg);color:var(--text);}
+
+.callout{
+  border-left:3px solid var(--accent);background:var(--bg);padding:.8rem 1rem;border-radius:.5rem;margin:.7rem 0;font-size:.92rem;
+}
+
+footer.site-footer{
+  border-top:1px solid var(--card-border);padding:3rem 1.5rem 2.5rem;text-align:center;color:var(--text-muted);font-size:.88rem;
+}
+footer.site-footer .foot-links{display:flex;flex-wrap:wrap;justify-content:center;gap:1rem 1.6rem;margin-bottom:1.2rem;}
+footer.site-footer a{color:var(--text-muted);text-decoration:none;}
+footer.site-footer a:hover{color:var(--accent);}
+
+#back-to-top{
+  position:fixed;right:1.5rem;bottom:1.5rem;z-index:1000;
+  width:3rem;height:3rem;border-radius:999px;border:1px solid var(--card-border);
+  background:var(--card-bg);color:var(--text);box-shadow:var(--shadow-lg);
+  display:flex;align-items:center;justify-content:center;cursor:pointer;
+  opacity:0;pointer-events:none;transform:translateY(10px);transition:all .25s ease;
+}
+#back-to-top.show{opacity:1;pointer-events:auto;transform:translateY(0);}
+
+.mobile-toc-toggle{display:none;}
+
+@media (max-width:980px){
+  .layout{grid-template-columns:1fr;}
+  .sidebar{
+    position:static;max-height:none;order:2;
+  }
+  .sidebar.collapsed .toc-list{display:none;}
+  .mobile-toc-toggle{
+    display:flex;align-items:center;justify-content:space-between;width:100%;
+    background:var(--card-bg);border:1px solid var(--card-border);border-radius:.7rem;
+    padding:.8rem 1rem;font-weight:700;cursor:pointer;margin-bottom:.8rem;
+  }
+}
+
+@media print{
+  header.topnav,.sidebar,#back-to-top,#progress-bar,.skip-link{display:none !important;}
+  details.clause{break-inside:avoid;box-shadow:none;border-color:#ccc;}
+  details.clause .clause-body{display:block !important;}
+  .layout{display:block;}
+  body{background:#fff;color:#000;}
+}
+
+@media (prefers-reduced-motion: reduce){
+  *{scroll-behavior:auto !important;transition:none !important;animation:none !important;}
+}
+</style>
+</head>
+<body>
+
+<a href="#main-content" class="skip-link">Skip to main content</a>
+<div id="progress-bar" role="progressbar" aria-hidden="true"></div>
+
+<header class="topnav">
+  <div class="topnav-inner">
+    <a href="#top" class="brand" aria-label="Verano home">
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+        <rect x="1" y="1" width="26" height="26" rx="8" stroke="currentColor" stroke-width="1.4"/>
+        <path d="M8 9L14 20L20 9" stroke="var(--brass-600)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      Verano
+    </a>
+    <div class="topnav-actions">
+      <button class="print-btn" onclick="window.print()" aria-label="Print this policy">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9V2h12v7M6 18H4a1 1 0 0 1-1-1v-6a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2M6 14h12v8H6z" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Print
+      </button>
+      <button class="icon-btn" id="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false">
+        <svg id="theme-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M12 3v2M12 19v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M3 12h2M19 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <circle cx="12" cy="12" r="4.5" stroke="currentColor" stroke-width="1.5"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="seal" aria-hidden="true">
+    <svg width="40" height="40" viewBox="0 0 24 24" fill="none"><path d="M9 12.5l2 2 4-5" stroke="var(--brass-600)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </div>
+  <span class="hero-eyebrow">Legal &amp; Compliance</span>
+  <h1>Privacy Policy</h1>
+  <p class="lede">This Privacy Policy explains, in full and in plain legal terms, how Verano Technologies Private Limited collects, uses, discloses, retains, secures and transfers personal information in connection with the Verano web application, mobile experience and WhatsApp Business Platform integration.</p>
+  <div class="hero-meta">
+    <span><strong>Effective Date:</strong> August 1, 2026</span>
+    <span><strong>Last Revised:</strong> July 28, 2026</span>
+    <span><strong>Version:</strong> 4.2</span>
+    <span><strong>Applies to:</strong> Web, iOS, Android, WhatsApp</span>
+  </div>
+</section>
+
+<div class="layout">
+  <nav class="sidebar" aria-label="Table of contents">
+    <button class="mobile-toc-toggle" id="mobile-toc-toggle" aria-expanded="true" aria-controls="toc-list">
+      Table of Contents
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <h2>Table of Contents</h2>
+    <ul class="toc-list" id="toc-list">
+      <li><a href="#part-1" data-toc>I. Introduction, Scope &amp; Definitions</a></li>
+      <li><a href="#part-2" data-toc>II. Legal Basis for Processing</a></li>
+      <li><a href="#part-3" data-toc>III. Information We Collect</a></li>
+      <li><a href="#part-4" data-toc>IV. Device, Cookies &amp; Technical Data</a></li>
+      <li><a href="#part-5" data-toc>V. WhatsApp &amp; Meta Platform Data</a></li>
+      <li><a href="#part-6" data-toc>VI. AI, Documents &amp; Conversation Data</a></li>
+      <li><a href="#part-7" data-toc>VII. Financial &amp; Budgeting Data</a></li>
+      <li><a href="#part-8" data-toc>VIII. Analytics, ML &amp; Automated Decisions</a></li>
+      <li><a href="#part-9" data-toc>IX. Communications &amp; Marketing</a></li>
+      <li><a href="#part-10" data-toc>X. Third-Party Services &amp; Processors</a></li>
+      <li><a href="#part-11" data-toc>XI. Disclosure, Transfers &amp; Retention</a></li>
+      <li><a href="#part-12" data-toc>XII. Your Privacy Rights</a></li>
+      <li><a href="#part-13" data-toc>XIII. International Transfers &amp; Security</a></li>
+      <li><a href="#part-14" data-toc>XIV. Children, Changes &amp; Governance</a></li>
+    </ul>
+  </nav>
+
+  <main id="main-content">
+    <div class="intro-card">
+      <p><strong>Verano Technologies Private Limited</strong> ("Verano," "the Company," "we," "us," or "our") respects your privacy and is committed to protecting it through compliance with this Privacy Policy ("Policy").</p>
+      <p>This Policy applies to all users of the Verano web application at app.verano.app, the Verano mobile applications, and the Verano WhatsApp Business Platform assistant (collectively, the "Service"). By accessing or using the Service, you acknowledge that you have read, understood and agree to be bound by this Policy in its entirety.</p>
+      <p>Use the Table of Contents on the left to navigate directly to any section, or use the collapsible headings below to expand each clause. This document is print-friendly and screen-reader accessible.</p>
+    </div>
+
+    <!-- ================= PART I ================= -->
+    <section class="part" id="part-1">
+      <div class="part-header"><span class="part-number">Part I</span><h2>Introduction, Scope &amp; Definitions</h2></div>
+
+      <details class="clause" id="sec-1" open>
+        <summary><span class="idx">1</span> Introduction <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>Verano Technologies Private Limited is a company incorporated under the laws of India with its registered office in Bengaluru, Karnataka. Verano operates a software-as-a-service platform that helps individuals manage personal finances, budgeting, savings goals and investment planning through an AI-powered assistant accessible on the web, on native mobile applications, and via the WhatsApp Business Platform.</p>
+          <p>This Policy is drafted to give you a clear, complete and legally accurate account of our data practices. It is intended to satisfy applicable disclosure obligations under the General Data Protection Regulation ("GDPR"), the UK GDPR, the California Consumer Privacy Act as amended by the California Privacy Rights Act ("CCPA/CPRA"), India's Digital Personal Data Protection Act, 2023 ("DPDP Act"), the Privacy and Electronic Communications Regulations ("PECR"), and the platform policies of Meta Platforms, Inc. and OpenAI, among others.</p>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-2">
+        <summary><span class="idx">2</span> Scope <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>This Policy applies to all personal information processed by Verano in connection with the Service, regardless of the channel through which it is collected, including our website, our mobile applications distributed through the Apple App Store and Google Play, our WhatsApp Business Platform assistant, our customer support channels, and any application programming interfaces we operate or consume.</p>
+          <p>This Policy does not apply to information processed by third parties on their own behalf, including payment processors, cloud infrastructure providers, or Meta Platforms, Inc. in its capacity as the operator of WhatsApp, each of which maintains its own privacy notices governing its independent processing activities.</p>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-3">
+        <summary><span class="idx">3</span> Definitions <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <table class="dtable">
+            <tr><th>Term</th><th>Meaning</th></tr>
+            <tr><td>Personal Information / Personal Data</td><td>Any information relating to an identified or identifiable natural person, as defined under applicable law.</td></tr>
+            <tr><td>Processing</td><td>Any operation performed on personal information, including collection, storage, use, disclosure, transfer and erasure.</td></tr>
+            <tr><td>Data Fiduciary</td><td>Verano, as the entity that determines the purpose and means of processing personal data under the DPDP Act.</td></tr>
+            <tr><td>Data Principal</td><td>The individual to whom the personal data relates (referred to elsewhere in this Policy as "you" or "user").</td></tr>
+            <tr><td>Sub-processor</td><td>A third-party vendor engaged by Verano to process personal information on our behalf.</td></tr>
+            <tr><td>Service</td><td>The Verano web application, mobile applications, and WhatsApp Business Platform assistant, collectively.</td></tr>
+          </table>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-4">
+        <summary><span class="idx">4</span> Acceptance of this Policy <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>By creating an account, connecting your WhatsApp number to the Verano assistant, or otherwise using the Service, you affirmatively accept the terms of this Policy. Where required by applicable law, we will obtain your explicit, informed and freely given consent prior to processing particular categories of personal information, and we will provide granular consent controls within the Service settings.</p>
+          <p>If you do not agree with any part of this Policy, you must discontinue use of the Service immediately and may request deletion of your account in accordance with Part IX.</p>
+        </div>
+      </details>
+    </section>
+
+    <!-- ================= PART II ================= -->
+    <section class="part" id="part-2">
+      <div class="part-header"><span class="part-number">Part II</span><h2>Legal Basis for Processing</h2></div>
+
+      <details class="clause" id="sec-5">
+        <summary><span class="idx">5</span> Legal Basis of Processing <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>Where the GDPR or UK GDPR applies, we rely on one or more of the following legal bases for each processing activity: performance of a contract with you (Article 6(1)(b)); compliance with a legal obligation (Article 6(1)(c)); our legitimate interests in operating, securing and improving the Service, provided such interests are not overridden by your fundamental rights (Article 6(1)(f)); and your explicit consent, particularly for marketing communications, non-essential cookies, and the processing of sensitive financial categories where required (Article 6(1)(a)).</p>
+          <p>Under the DPDP Act, we process personal data on the basis of your consent, obtained through clear affirmative action, or pursuant to a "certain legitimate use" recognized under the Act, such as the provision of a service you have requested or compliance with a legal obligation.</p>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-6">
+        <summary><span class="idx">6</span> Categories of Personal Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>We organize the personal information we process into the following categories: identity data (name, date of birth), contact data (email, phone number, WhatsApp number, address), financial data (income, expenses, budgets, investment and goal-planning inputs), technical data (device identifiers, IP address, browser fingerprint), usage data (in-app behavior, feature engagement), AI interaction data (prompts, uploaded documents, generated outputs), and marketing preferences.</p>
+          <p>We do not intentionally collect special categories of personal data (such as health, religious belief, or sexual orientation data) under Article 9 of the GDPR, and we ask that you refrain from submitting such information through free-text fields or document uploads.</p>
+        </div>
+      </details>
+    </section>
+
+    <!-- ================= PART III ================= -->
+    <section class="part" id="part-3">
+      <div class="part-header"><span class="part-number">Part III</span><h2>Information We Collect</h2></div>
+
+      <details class="clause" id="sec-7">
+        <summary><span class="idx">7</span> Information You Provide <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>When you register for the Service, you provide us with your full name, email address, phone number, and a password or authentication credential. You may optionally provide a profile picture, date of birth, city of residence, occupation, and a WhatsApp number for linking the conversational assistant.</p>
+          <p>Additional information you voluntarily submit through forms, surveys, support tickets, or free-text fields within the Service, including any information you choose to include in messages to our AI assistant, is also collected and processed in accordance with this Policy.</p>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-8">
+        <summary><span class="idx">8</span> Automatically Collected Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>In addition to information you actively provide, we automatically collect certain information whenever you interact with the Service, including log data, timestamps of requests, referring URLs, pages viewed, features used, session duration, and crash diagnostics. This information allows us to operate the Service reliably, diagnose faults, and understand aggregate usage patterns.</p>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-31">
+        <summary><span class="idx">31</span> Financial Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>Because Verano provides financial planning functionality, we collect the financial information you choose to enter or connect, including declared income figures, recurring expense categories, savings goals, and, where you opt to connect a bank account through a licensed account-aggregation partner, read-only transaction summaries. See Part VII for the complete treatment of financial data categories.</p>
+        </div>
+      </details>
+    </section>
+
+    <!-- ================= PART IV ================= -->
+    <section class="part" id="part-4">
+      <div class="part-header"><span class="part-number">Part IV</span><h2>Device, Cookies &amp; Technical Data</h2></div>
+
+      <details class="clause" id="sec-9">
+        <summary><span class="idx">9</span> Device Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We collect device identifiers, device model, screen resolution, and installed application version to ensure compatibility, deliver correctly formatted experiences, and detect fraudulent or automated access to the Service.</p></div>
+      </details>
+      <details class="clause" id="sec-10">
+        <summary><span class="idx">10</span> Browser Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We collect browser type, browser version, installed plugins where exposed by the browser, and rendering engine details to support cross-browser compatibility and to identify anomalous or bot-like traffic patterns.</p></div>
+      </details>
+      <details class="clause" id="sec-11">
+        <summary><span class="idx">11</span> Operating System Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We collect the operating system name and version running on your device, which we use to determine feature availability, apply security patches relevant to your platform, and prioritize engineering support for the most-used environments.</p></div>
+      </details>
+      <details class="clause" id="sec-12">
+        <summary><span class="idx">12</span> Network Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We collect network connection type (such as Wi-Fi or cellular), approximate network carrier where available, and latency metrics to optimize the delivery and performance of the Service across varying connectivity conditions.</p></div>
+      </details>
+      <details class="clause" id="sec-13">
+        <summary><span class="idx">13</span> IP Address Collection <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We collect your IP address for every request made to our servers. IP addresses are used for approximate geolocation (at city or region level only), rate limiting, fraud detection, and compliance with lawful requests from competent authorities. We do not use IP address data for individualized advertising profiling.</p></div>
+      </details>
+      <details class="clause" id="sec-14">
+        <summary><span class="idx">14</span> Cookies <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>We use strictly necessary cookies to maintain your authenticated session, preference cookies to remember your theme and language settings, and analytics cookies to understand aggregate feature usage. Where required by PECR and the ePrivacy framework, non-essential cookies are only set after you provide affirmative consent through our cookie banner, which you may withdraw at any time through the cookie preference center in your account settings.</p>
+        </div>
+      </details>
+      <details class="clause" id="sec-15">
+        <summary><span class="idx">15</span> Local Storage <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We use browser local storage to persist your theme preference, draft form entries, and cached configuration so that the Service loads faster on repeat visits. Local storage data remains on your device and is not transmitted to our servers except where you explicitly synchronize settings across devices.</p></div>
+      </details>
+      <details class="clause" id="sec-16">
+        <summary><span class="idx">16</span> Session Storage <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Session storage is used to hold transient state, such as in-progress multi-step form data and the current step of an onboarding flow, and is automatically cleared when the browser tab is closed.</p></div>
+      </details>
+      <details class="clause" id="sec-17">
+        <summary><span class="idx">17</span> Authentication Tokens <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We issue short-lived access tokens and longer-lived refresh tokens to authenticate your sessions without requiring you to re-enter credentials on every request. Tokens are stored using secure, HTTP-only cookies or platform-appropriate secure storage and are invalidated immediately upon logout or password change.</p></div>
+      </details>
+      <details class="clause" id="sec-18">
+        <summary><span class="idx">18</span> OAuth Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>If you sign in using Google Sign-In or another OAuth-based identity provider, we receive your name, email address, and profile picture as authorized by the scopes you approve during the consent flow. We do not request access to your underlying Google account data beyond what is necessary for authentication.</p></div>
+      </details>
+    </section>
+
+    <!-- ================= PART V ================= -->
+    <section class="part" id="part-5">
+      <div class="part-header"><span class="part-number">Part V</span><h2>WhatsApp &amp; Meta Platform Data</h2></div>
+
+      <details class="clause" id="sec-19">
+        <summary><span class="idx">19</span> WhatsApp Authentication <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>When you initiate a conversation with the Verano assistant on WhatsApp, we receive your WhatsApp phone number and WhatsApp-registered display name through the WhatsApp Business Platform. This number is used solely to identify your account and deliver assistant responses, and is linked to your existing Verano account where you have completed identity verification.</p></div>
+      </details>
+      <details class="clause" id="sec-20">
+        <summary><span class="idx">20</span> Meta Platform Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Our use of the WhatsApp Business Platform is subject to Meta's Business Tools Terms and the WhatsApp Business Platform Terms of Service. Meta Platforms, Inc. acts as an independent controller of certain metadata (such as message delivery receipts) and directs users to its own privacy policy for that processing, which is separate from and supplementary to this Policy.</p></div>
+      </details>
+      <details class="clause" id="sec-21">
+        <summary><span class="idx">21</span> Facebook Login Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Where you elect to authenticate using Facebook Login, we receive only your public profile name, email address, and profile photo, limited strictly to the permissions you approve, in compliance with Meta Platform Terms and the Facebook Platform Policy governing data minimization and prohibited data uses.</p></div>
+      </details>
+      <details class="clause" id="sec-60">
+        <summary><span class="idx">60</span> WhatsApp Business Platform (Processing Role) <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Messages you exchange with the Verano assistant on WhatsApp are routed through Meta's infrastructure and delivered to our backend systems, where they are processed to generate a response and, where you have consented, retained as part of your conversation history described in Part VI. We adhere to Meta's Commerce Policy, WhatsApp Business Messaging Policy, and data retention limitations applicable to Business Solution Providers.</p></div>
+      </details>
+    </section>
+
+    <!-- ================= PART VI ================= -->
+    <section class="part" id="part-6">
+      <div class="part-header"><span class="part-number">Part VI</span><h2>AI, Documents &amp; Conversation Data</h2></div>
+
+      <details class="clause" id="sec-22">
+        <summary><span class="idx">22</span> AI Generated Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>The Service uses large language model technology, including models made available by OpenAI, L.L.C. and other AI providers, to generate budgeting suggestions, summaries, and conversational responses. Outputs generated by the AI assistant are stored in association with your account so that you may review your planning history, and are processed in accordance with the OpenAI Usage Policies and the relevant provider's data processing terms.</p></div>
+      </details>
+      <details class="clause" id="sec-23">
+        <summary><span class="idx">23</span> Uploaded Documents <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>You may upload bank statements, salary slips, receipts, and other financial documents to help the AI assistant populate your budget automatically. Uploaded documents are encrypted at rest and are processed only for the purpose of extracting the specific data points you request; we do not review uploaded documents manually except where necessary to investigate abuse or a support request you have raised.</p></div>
+      </details>
+      <details class="clause" id="sec-24">
+        <summary><span class="idx">24</span> User Uploaded Files <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Files you upload for any purpose, including profile pictures and supporting documentation, are stored in access-controlled cloud storage buckets, associated with your account identifier, and deleted in accordance with the retention schedule set out in Part IX, or sooner upon your request.</p></div>
+      </details>
+      <details class="clause" id="sec-25">
+        <summary><span class="idx">25</span> PDF Processing <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>When you upload a PDF statement, our systems extract text and tabular data using automated parsing pipelines. Extracted text is transiently held in memory for processing and is persisted only in the structured, minimized form necessary to populate your budget (for example, transaction date, amount, and category), rather than as a verbatim copy of the source document, unless you elect to retain the original file.</p></div>
+      </details>
+      <details class="clause" id="sec-26">
+        <summary><span class="idx">26</span> OCR Processing <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Where you upload a scanned or photographed receipt, we use optical character recognition to convert the image into machine-readable text. This process is performed on encrypted infrastructure, and the source image is discarded after successful extraction unless you have opted to retain receipt images within your account.</p></div>
+      </details>
+      <details class="clause" id="sec-27">
+        <summary><span class="idx">27</span> AI Conversation History <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We retain your conversation history with the AI assistant to provide continuity across sessions, enable you to reference prior advice, and improve the relevance of future responses. You may clear your conversation history at any time from within account settings, which will permanently delete the stored transcript from production systems within thirty days.</p></div>
+      </details>
+      <details class="clause" id="sec-28">
+        <summary><span class="idx">28</span> Chat History <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Chat history spanning both the web-based assistant and the WhatsApp assistant is unified into a single record per account so that your planning context carries across channels, subject to the same retention and deletion controls described above.</p></div>
+      </details>
+      <details class="clause" id="sec-42">
+        <summary><span class="idx">42</span> AI Training Data <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We do not use the content of your uploaded documents or personally identifiable conversation content to train foundation models operated by third-party AI providers. Where we improve our own classification and categorization models, we use de-identified, aggregated data from which direct identifiers have been removed, consistent with data minimization principles under GDPR Article 5(1)(c).</p></div>
+      </details>
+      <details class="clause" id="sec-43">
+        <summary><span class="idx">43</span> AI Model Improvement <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Where our AI sub-processors offer a contractual commitment that API-submitted content is not used to train their models absent separate opt-in, we configure our integrations to rely on that commitment. You may review the current list of AI sub-processors and their data-use commitments in our Sub-processor Register, available on request from privacy@verano.app.</p></div>
+      </details>
+    </section>
+
+    <!-- ================= PART VII ================= -->
+    <section class="part" id="part-7">
+      <div class="part-header"><span class="part-number">Part VII</span><h2>Financial &amp; Budgeting Data</h2></div>
+
+      <details class="clause" id="sec-30">
+        <summary><span class="idx">30</span> Banking Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Where you choose to connect a bank account through a licensed account-aggregation partner regulated by the applicable financial authority, we receive read-only transaction summaries and account balances. Verano never receives or stores your online banking credentials, which are entered directly with the regulated aggregator through a secure, tokenized connection.</p></div>
+      </details>
+      <details class="clause" id="sec-32">
+        <summary><span class="idx">32</span> Income Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Income figures you declare, or that are derived from connected bank transactions, are used exclusively to power your personal budget calculations and are never disclosed to third parties for marketing or credit-scoring purposes without your separate, explicit consent.</p></div>
+      </details>
+      <details class="clause" id="sec-33">
+        <summary><span class="idx">33</span> Expense Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Expense entries, whether manually logged, imported from a connected account, or extracted from an uploaded document, are categorized using automated classification to generate the spending insights displayed within the Service.</p></div>
+      </details>
+      <details class="clause" id="sec-34">
+        <summary><span class="idx">34</span> Investment Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Where you input details of existing investments to model a financial plan, this information is treated with the same protections as banking data and is never used to solicit you on behalf of any investment product provider without your explicit, separately obtained consent.</p></div>
+      </details>
+      <details class="clause" id="sec-35">
+        <summary><span class="idx">35</span> Goal Planning Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Goals you set within the Service, such as a target date and amount for a savings objective, are used to calculate the recommended monthly contribution shown in your dashboard and are stored for as long as your account remains active.</p></div>
+      </details>
+      <details class="clause" id="sec-36">
+        <summary><span class="idx">36</span> Risk Profile Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Where you complete a risk-tolerance questionnaire, your responses are used solely to tailor the illustrative planning scenarios presented to you and do not constitute regulated investment advice within the meaning of applicable securities law.</p></div>
+      </details>
+      <details class="clause" id="sec-37b">
+        <summary><span class="idx">37</span> Budget Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Your composite budget, comprising income, expense, goal and investment inputs, is treated as a single sensitive financial record. Access to this record within our systems is restricted under the role-based access controls described in Part XIII.</p></div>
+      </details>
+    </section>
+
+    <!-- ================= PART VIII ================= -->
+    <section class="part" id="part-8">
+      <div class="part-header"><span class="part-number">Part VIII</span><h2>Analytics, ML &amp; Automated Decisions</h2></div>
+
+      <details class="clause" id="sec-37">
+        <summary><span class="idx">37b</span> Analytics <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We use privacy-conscious analytics tooling to understand which features are used, how long onboarding takes, and where users encounter friction. Analytics data is processed in aggregate wherever possible and is never sold to data brokers.</p></div>
+      </details>
+      <details class="clause" id="sec-38">
+        <summary><span class="idx">38</span> Crash Reports <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>When the mobile application encounters an unhandled exception, a crash report containing a stack trace, device model, and OS version is transmitted to our engineering team to diagnose and resolve the underlying defect. Crash reports are automatically purged after ninety days.</p></div>
+      </details>
+      <details class="clause" id="sec-39">
+        <summary><span class="idx">39</span> Error Logs <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Server-side error logs capture the request path, response status, and a truncated error message to support debugging. Logs are access-restricted to on-call engineering personnel and are retained for a maximum of one hundred eighty days.</p></div>
+      </details>
+      <details class="clause" id="sec-40">
+        <summary><span class="idx">40</span> Performance Metrics <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We collect aggregate performance metrics, including page load time and API response latency, to maintain the reliability targets described in our service-level commitments.</p></div>
+      </details>
+      <details class="clause" id="sec-41">
+        <summary><span class="idx">41</span> Machine Learning Data <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Our internally developed expense-categorization model is trained on de-identified transaction descriptions and merchant category codes, with direct identifiers such as account numbers and names removed prior to any training run.</p></div>
+      </details>
+      <details class="clause" id="sec-44">
+        <summary><span class="idx">44</span> Security Monitoring <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We continuously monitor authentication attempts, API traffic patterns, and account activity for indicators of compromise, using automated alerting integrated with our incident response process described in Part XIII.</p></div>
+      </details>
+      <details class="clause" id="sec-45">
+        <summary><span class="idx">45</span> Fraud Detection <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We process device, network and behavioral signals to detect fraudulent account creation, credential-stuffing attacks, and payment fraud, relying on our legitimate interest in protecting the Service and its users under GDPR Article 6(1)(f).</p></div>
+      </details>
+      <details class="clause" id="sec-46">
+        <summary><span class="idx">46</span> Abuse Prevention <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We reserve the right to review account activity that our automated systems flag as potentially abusive, including attempts to circumvent rate limits or to misuse the AI assistant for purposes inconsistent with our Acceptable Use Policy.</p></div>
+      </details>
+      <details class="clause" id="sec-47">
+        <summary><span class="idx">47</span> Automated Decision Making <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>The Service generates automated budgeting recommendations, but does not make any decision producing legal or similarly significant effects concerning you without human involvement. Where you disagree with an automated categorization, you may manually override it at any time, and no automated output is used to grant or deny you access to credit, employment, insurance, or housing.</p></div>
+      </details>
+      <details class="clause" id="sec-48">
+        <summary><span class="idx">48</span> Profiling <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We construct a limited behavioral profile consisting of your declared financial goals and spending categories in order to personalize the budgeting suggestions you see. You may object to this profiling at any time through the mechanism described in Part XII, Section 79.</p></div>
+      </details>
+      <details class="clause" id="sec-49">
+        <summary><span class="idx">49</span> Personalization <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Personalization features, such as tailored savings tips and reminders, are enabled by default but may be disabled from your notification and personalization settings without affecting your access to the core Service.</p></div>
+      </details>
+    </section>
+
+    <!-- ================= PART IX ================= -->
+    <section class="part" id="part-9">
+      <div class="part-header"><span class="part-number">Part IX</span><h2>Communications &amp; Marketing</h2></div>
+
+      <details class="clause" id="sec-50">
+        <summary><span class="idx">50</span> Communications <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We send transactional communications, including account verification messages, security alerts, and service notices, which are necessary for the operation of the Service and cannot be opted out of while your account remains active.</p></div>
+      </details>
+      <details class="clause" id="sec-51">
+        <summary><span class="idx">51</span> Marketing <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>With your consent, we send promotional communications about new features, financial-literacy content, and product updates by email and, where you have separately opted in, by WhatsApp message. You may withdraw consent at any time using the unsubscribe link in each communication or through account settings, in compliance with PECR and the CAN-SPAM Act.</p></div>
+      </details>
+      <details class="clause" id="sec-52">
+        <summary><span class="idx">52</span> Newsletter <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Subscription to our periodic financial-literacy newsletter is optional and separate from your core account communications preference, and may be managed independently through the newsletter preference center.</p></div>
+      </details>
+      <details class="clause" id="sec-53">
+        <summary><span class="idx">53</span> Customer Support <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>When you contact our support team, we process the content of your inquiry, any attachments you provide, and your account identifier to investigate and resolve your request, and we retain support correspondence for up to three years to maintain a service history and support quality assurance.</p></div>
+      </details>
+    </section>
+
+    <!-- ================= PART X ================= -->
+    <section class="part" id="part-10">
+      <div class="part-header"><span class="part-number">Part X</span><h2>Third-Party Services &amp; Processors</h2></div>
+
+      <details class="clause" id="sec-54">
+        <summary><span class="idx">54</span> Third Party Services <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We engage a limited number of carefully vetted sub-processors to operate the Service, each bound by a data processing agreement requiring confidentiality, security, and use of personal information solely on our documented instructions.</p></div>
+      </details>
+      <details class="clause" id="sec-55">
+        <summary><span class="idx">55</span> Cloud Hosting <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Our production infrastructure is hosted on Microsoft Azure, in data centers located in India and Ireland, and is subject to Microsoft's Azure Privacy Principles, SOC 2 Type II attestations, and ISO 27001 certification.</p></div>
+      </details>
+      <details class="clause" id="sec-56">
+        <summary><span class="idx">56</span> Payment Providers <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Subscription payments are processed by PCI DSS Level 1 certified payment processors. Verano does not store full payment card numbers on its own systems; we retain only a tokenized reference and the last four digits of your card for receipt and support purposes.</p></div>
+      </details>
+      <details class="clause" id="sec-57">
+        <summary><span class="idx">57</span> Email Providers <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Transactional and marketing emails are delivered through a reputable email service provider under contract, which processes recipient addresses and delivery metadata solely to transmit messages on our behalf.</p></div>
+      </details>
+      <details class="clause" id="sec-58">
+        <summary><span class="idx">58</span> Analytics Providers <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We use a privacy-focused analytics provider configured to minimize collection of directly identifying information and to honor "Do Not Track" and Global Privacy Control signals where technically feasible.</p></div>
+      </details>
+      <details class="clause" id="sec-59">
+        <summary><span class="idx">59</span> Meta Platforms <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Our relationship with Meta Platforms, Inc. for WhatsApp Business Platform and Facebook Login services is governed by Meta's Platform Terms, Developer Policies, and Data Processing Terms, each incorporated by reference into our sub-processor arrangements.</p></div>
+      </details>
+      <details class="clause" id="sec-61">
+        <summary><span class="idx">61</span> OpenAI <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We transmit user prompts and relevant account context to OpenAI, L.L.C. via its commercial API to generate assistant responses, under a Data Processing Addendum that restricts OpenAI from using API inputs to train its models absent separate written agreement, consistent with the OpenAI Usage Policies.</p></div>
+      </details>
+      <details class="clause" id="sec-62">
+        <summary><span class="idx">62</span> Google APIs <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Our use of Google APIs, including Google Sign-In, complies with the Google API Services User Data Policy, including its Limited Use requirements: data obtained through Google APIs is used only to provide or improve user-facing features, and is never used for advertising.</p></div>
+      </details>
+      <details class="clause" id="sec-63">
+        <summary><span class="idx">63</span> Microsoft Services <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Microsoft, as our cloud hosting provider, acts strictly as a data processor with respect to customer content stored on Azure, and its processing is governed by the Microsoft Product Terms and Azure Privacy Principles referenced above.</p></div>
+      </details>
+    </section>
+
+    <!-- ================= PART XI ================= -->
+    <section class="part" id="part-11">
+      <div class="part-header"><span class="part-number">Part XI</span><h2>Disclosure, Transfers &amp; Retention</h2></div>
+
+      <details class="clause" id="sec-64">
+        <summary><span class="idx">64</span> Data Sharing <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We share personal information only with sub-processors bound by contract, professional advisors under confidentiality obligations, and, where you provide explicit consent, third parties you designate. We do not sell personal information, and we do not share personal information with data brokers.</p></div>
+      </details>
+      <details class="clause" id="sec-65">
+        <summary><span class="idx">65</span> Data Disclosure <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We may disclose personal information where necessary to protect the rights, property, or safety of Verano, our users, or the public, including to investigate suspected fraud or violations of our Terms of Service.</p></div>
+      </details>
+      <details class="clause" id="sec-66">
+        <summary><span class="idx">66</span> Legal Requests <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We disclose personal information in response to valid legal process, such as a court order or subpoena, after verifying its legal sufficiency, and we will notify the affected user prior to disclosure unless prohibited by law or where doing so would create a risk to an investigation.</p></div>
+      </details>
+      <details class="clause" id="sec-67">
+        <summary><span class="idx">67</span> Government Requests <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We publish an annual transparency report summarizing the volume and nature of government requests for user data received, consistent with our commitment to accountability under Article 5(2) of the GDPR.</p></div>
+      </details>
+      <details class="clause" id="sec-68">
+        <summary><span class="idx">68</span> Business Transfers <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>If Verano is involved in a merger, acquisition, financing, or sale of assets, personal information may be transferred as part of that transaction, subject to a requirement that the receiving entity honor the commitments of this Policy.</p></div>
+      </details>
+      <details class="clause" id="sec-69">
+        <summary><span class="idx">69</span> Mergers <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>In a merger scenario, we will provide notice to affected users through the Service or by email describing any material change in the ownership or intended use of their personal information prior to that change taking effect.</p></div>
+      </details>
+      <details class="clause" id="sec-70">
+        <summary><span class="idx">70</span> Acquisitions <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Where Verano acquires another company or product, we will conduct due diligence to confirm the lawful basis under which any acquired personal information was originally collected before integrating it with our own systems.</p></div>
+      </details>
+      <details class="clause" id="sec-71">
+        <summary><span class="idx">71</span> Data Retention <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>We retain personal information only for as long as necessary to fulfill the purposes described in this Policy, or as required by applicable law. Our standard retention periods are summarized below.</p>
+          <table class="dtable">
+            <tr><th>Category</th><th>Retention Period</th></tr>
+            <tr><td>Active account profile data</td><td>Duration of account, plus 90 days after deletion</td></tr>
+            <tr><td>Financial and budgeting records</td><td>Duration of account, plus 90 days after deletion</td></tr>
+            <tr><td>AI conversation history</td><td>Until manually cleared, or account deletion</td></tr>
+            <tr><td>Support correspondence</td><td>3 years</td></tr>
+            <tr><td>Server logs</td><td>180 days</td></tr>
+            <tr><td>Crash reports</td><td>90 days</td></tr>
+            <tr><td>Marketing consent records</td><td>7 years (evidentiary purposes)</td></tr>
+          </table>
+        </div>
+      </details>
+      <details class="clause" id="sec-72">
+        <summary><span class="idx">72</span> Data Deletion <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>You may request deletion of your account and associated personal information at any time from account settings or by emailing privacy@verano.app. Upon a verified deletion request, we will erase your personal information from production systems within thirty days and from encrypted backups within ninety days, except where retention is required to comply with a legal obligation.</p></div>
+      </details>
+    </section>
+
+    <!-- ================= PART XII ================= -->
+    <section class="part" id="part-12">
+      <div class="part-header"><span class="part-number">Part XII</span><h2>Your Privacy Rights</h2></div>
+
+      <details class="clause" id="sec-73">
+        <summary><span class="idx">73</span> User Rights <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Depending on your jurisdiction, you may have some or all of the following rights with respect to your personal information: access, rectification, erasure, portability, restriction, objection, and withdrawal of consent. We honor requests from all users globally as a matter of policy, regardless of jurisdictional entitlement, unless doing so would be unlawful or unreasonably burdensome.</p></div>
+      </details>
+      <details class="clause" id="sec-74">
+        <summary><span class="idx">74</span> Right to Access <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>You may request a copy of the personal information we hold about you. We will respond within thirty days, or one month under GDPR Article 12(3), and will verify your identity before releasing any data.</p></div>
+      </details>
+      <details class="clause" id="sec-75">
+        <summary><span class="idx">75</span> Right to Rectification <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>You may correct inaccurate personal information directly within your account settings, or by contacting our support team where the relevant field is not self-service editable.</p></div>
+      </details>
+      <details class="clause" id="sec-76">
+        <summary><span class="idx">76</span> Right to Erasure <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>You may request erasure of your personal information as described in Section 72, subject to limited exceptions where retention is legally required, such as tax and accounting recordkeeping obligations.</p></div>
+      </details>
+      <details class="clause" id="sec-77">
+        <summary><span class="idx">77</span> Right to Portability <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>You may export your budgeting data, transaction history, and goal-planning records in a structured, machine-readable CSV or JSON format directly from your account's data export tool.</p></div>
+      </details>
+      <details class="clause" id="sec-78">
+        <summary><span class="idx">78</span> Right to Restrict Processing <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Where you contest the accuracy of your data or object to our processing, you may request that we restrict further processing of that data pending resolution, during which time we will only store the data and not otherwise use it.</p></div>
+      </details>
+      <details class="clause" id="sec-79">
+        <summary><span class="idx">79</span> Right to Object <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>You may object at any time to processing based on our legitimate interests, including profiling for personalization purposes, by contacting privacy@verano.app or adjusting your personalization settings.</p></div>
+      </details>
+      <details class="clause" id="sec-80">
+        <summary><span class="idx">80</span> Right to Withdraw Consent <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Where processing is based on consent, you may withdraw that consent at any time with effect for the future, without affecting the lawfulness of processing carried out prior to withdrawal.</p></div>
+      </details>
+    </section>
+
+    <!-- ================= PART XIII ================= -->
+    <section class="part" id="part-13">
+      <div class="part-header"><span class="part-number">Part XIII</span><h2>International Transfers &amp; Security</h2></div>
+
+      <details class="clause" id="sec-81">
+        <summary><span class="idx">81</span> International Data Transfers <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Personal information may be transferred to and processed in countries other than your own, including India, Ireland, and the United States. Where we transfer personal information out of the European Economic Area or the United Kingdom, we rely on the European Commission's Standard Contractual Clauses or the UK International Data Transfer Addendum, together with supplementary technical and organizational measures.</p></div>
+      </details>
+      <details class="clause" id="sec-82">
+        <summary><span class="idx">82</span> Encryption <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>All personal information is encrypted in transit using TLS 1.2 or higher, and at rest using AES-256 encryption. Encryption keys are managed through a dedicated key management service with restricted access and periodic rotation.</p></div>
+      </details>
+      <details class="clause" id="sec-83">
+        <summary><span class="idx">83</span> Security Measures <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>We maintain a comprehensive information security program aligned with ISO 27001 and OWASP guidelines, incorporating role-based access control, the principle of least privilege, mandatory multi-factor authentication for administrative access, network segmentation, firewalls, continuous intrusion detection, and API rate limiting.</p>
+          <div class="callout">Our security program is independently assessed, and a current SOC 2 Type II report is available to enterprise customers under a mutual non-disclosure agreement upon request to security@verano.app.</div>
+        </div>
+      </details>
+      <details class="clause" id="sec-84">
+        <summary><span class="idx">84</span> Vulnerability Management <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We conduct regular vulnerability scanning and engage independent third parties to perform penetration testing at least annually. Identified vulnerabilities are triaged by severity and remediated according to internally defined service-level timelines.</p></div>
+      </details>
+      <details class="clause" id="sec-85">
+        <summary><span class="idx">85</span> Backup Policy <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Production data is backed up on an encrypted, automated schedule and stored redundantly across geographically separate facilities to protect against data loss, with backup retention aligned to the schedule in Section 71.</p></div>
+      </details>
+      <details class="clause" id="sec-86">
+        <summary><span class="idx">86</span> Disaster Recovery <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We maintain a documented disaster recovery plan, tested at least annually, defining recovery point and recovery time objectives designed to restore Service availability with minimal data loss in the event of a significant infrastructure failure.</p></div>
+      </details>
+      <details class="clause" id="sec-87">
+        <summary><span class="idx">87</span> Incident Response <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>In the event of a confirmed personal data breach, we will notify affected users and, where legally required, the competent supervisory authority, without undue delay and, where feasible, within seventy-two hours of becoming aware of the breach, consistent with GDPR Article 33 and analogous DPDP Act requirements.</p></div>
+      </details>
+    </section>
+
+    <!-- ================= PART XIV ================= -->
+    <section class="part" id="part-14">
+      <div class="part-header"><span class="part-number">Part XIV</span><h2>Children, Changes &amp; Governance</h2></div>
+
+      <details class="clause" id="sec-88">
+        <summary><span class="idx">88</span> Children's Privacy <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>The Service is not directed to individuals under the age of 18 and we do not knowingly collect personal information from children. If we become aware that we have collected personal information from a child without appropriate parental consent, we will promptly delete it.</p></div>
+      </details>
+      <details class="clause" id="sec-89">
+        <summary><span class="idx">89</span> Parents' Rights <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>A parent or legal guardian who believes their child has provided personal information to us may contact privacy@verano.app to request review and deletion of that information.</p></div>
+      </details>
+      <details class="clause" id="sec-90">
+        <summary><span class="idx">90</span> Third Party Links <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>The Service may contain links to third-party websites or resources. We are not responsible for the privacy practices of such third parties, and we encourage you to review their privacy policies before providing any personal information.</p></div>
+      </details>
+      <details class="clause" id="sec-91">
+        <summary><span class="idx">91</span> Changes to Privacy Policy <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We may update this Policy from time to time to reflect changes in our practices or applicable law. Material changes will be notified to you via email or an in-app notice at least fourteen days before taking effect, and the "Last Revised" date at the top of this Policy will always reflect the most recent version.</p></div>
+      </details>
+      <details class="clause" id="sec-92">
+        <summary><span class="idx">92</span> Contact Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>Questions or requests regarding this Policy or our data practices may be directed to:</p>
+          <table class="dtable">
+            <tr><th>Purpose</th><th>Contact</th></tr>
+            <tr><td>General privacy inquiries</td><td>privacy@verano.app</td></tr>
+            <tr><td>Security disclosures</td><td>security@verano.app</td></tr>
+            <tr><td>Registered office</td><td>Verano Technologies Private Limited, HSR Layout, Bengaluru, Karnataka 560102, India</td></tr>
+            <tr><td>EU/EEA representative</td><td>Verano Technologies EU Limited, Dublin, Ireland</td></tr>
+          </table>
+        </div>
+      </details>
+      <details class="clause" id="sec-93">
+        <summary><span class="idx">93</span> Grievance Officer <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>In accordance with the DPDP Act, we have appointed a Grievance Officer to address complaints from Data Principals. The Grievance Officer may be reached at grievance-officer@verano.app and will acknowledge receipt of a complaint within seven days and endeavor to resolve it within thirty days.</p></div>
+      </details>
+      <details class="clause" id="sec-94">
+        <summary><span class="idx">94</span> Data Protection Officer <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We have appointed a Data Protection Officer responsible for overseeing our compliance with the GDPR and UK GDPR, reachable at dpo@verano.app. You also have the right to lodge a complaint with your local supervisory authority.</p></div>
+      </details>
+      <details class="clause" id="sec-95">
+        <summary><span class="idx">95</span> Governing Law <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>This Policy is governed by the laws of India, without regard to conflict of law principles, without prejudice to any mandatory consumer-protection or data-protection rights you may have under the law of your habitual residence.</p></div>
+      </details>
+      <details class="clause" id="sec-96">
+        <summary><span class="idx">96</span> Dispute Resolution <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Any dispute arising out of or relating to this Policy shall first be addressed through good-faith negotiation between the parties before either party initiates formal proceedings.</p></div>
+      </details>
+      <details class="clause" id="sec-97">
+        <summary><span class="idx">97</span> Arbitration <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Where negotiation does not resolve a dispute within sixty days, either party may refer the matter to binding arbitration seated in Bengaluru, India, conducted by a sole arbitrator in accordance with the Arbitration and Conciliation Act, 1996, in the English language.</p></div>
+      </details>
+      <details class="clause" id="sec-98">
+        <summary><span class="idx">98</span> Entire Agreement <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>This Policy, together with our Terms of Service and any applicable Data Processing Addendum, constitutes the entire agreement between you and Verano regarding the processing of your personal information, and supersedes any prior understanding on that subject.</p></div>
+      </details>
+      <details class="clause" id="sec-99">
+        <summary><span class="idx">99</span> Severability <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>If any provision of this Policy is held to be invalid or unenforceable by a court or authority of competent jurisdiction, that provision shall be limited or eliminated to the minimum extent necessary, and the remaining provisions of this Policy shall remain in full force and effect.</p></div>
+      </details>
+      <details class="clause" id="sec-100">
+        <summary><span class="idx">100</span> Final Statement <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We are committed to earning and maintaining your trust through transparent, lawful, and secure handling of your personal information. Thank you for trusting Verano with your financial planning journey.</p></div>
+      </details>
+    </section>
+
+    <footer class="site-footer">
+      <div class="foot-links">
+        <a href="#part-1">Introduction</a>
+        <a href="#part-12">Your Rights</a>
+        <a href="#sec-92">Contact</a>
+        <a href="#sec-93">Grievance Officer</a>
+        <a href="mailto:privacy@verano.app">privacy@verano.app</a>
+      </div>
+      <p>&copy; 2026 Verano Technologies Private Limited. All rights reserved.</p>
+      <p>HSR Layout, Bengaluru, Karnataka 560102, India</p>
+    </footer>
+  </main>
+</div>
+
+<button id="back-to-top" aria-label="Back to top">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<script>
+(function(){
+  // Theme toggle
+  var root = document.documentElement;
+  var toggle = document.getElementById('theme-toggle');
+  var stored = null;
+  try { stored = localStorage.getItem('verano-theme'); } catch(e){}
+  var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  if (stored === 'dark' || (!stored && prefersDark)) {
+    root.setAttribute('data-theme','dark');
+    toggle.setAttribute('aria-pressed','true');
+  }
+  toggle.addEventListener('click', function(){
+    var isDark = root.getAttribute('data-theme') === 'dark';
+    if (isDark) {
+      root.removeAttribute('data-theme');
+      toggle.setAttribute('aria-pressed','false');
+      try { localStorage.setItem('verano-theme','light'); } catch(e){}
+    } else {
+      root.setAttribute('data-theme','dark');
+      toggle.setAttribute('aria-pressed','true');
+      try { localStorage.setItem('verano-theme','dark'); } catch(e){}
+    }
+  });
+
+  // Progress bar
+  var bar = document.getElementById('progress-bar');
+  function updateProgress(){
+    var h = document.documentElement;
+    var scrollTop = h.scrollTop || document.body.scrollTop;
+    var scrollHeight = (h.scrollHeight || document.body.scrollHeight) - h.clientHeight;
+    var pct = scrollHeight > 0 ? (scrollTop / scrollHeight) * 100 : 0;
+    bar.style.width = pct + '%';
+  }
+  document.addEventListener('scroll', updateProgress, {passive:true});
+  updateProgress();
+
+  // Back to top
+  var backBtn = document.getElementById('back-to-top');
+  document.addEventListener('scroll', function(){
+    if ((document.documentElement.scrollTop||document.body.scrollTop) > 500) {
+      backBtn.classList.add('show');
+    } else {
+      backBtn.classList.remove('show');
+    }
+  }, {passive:true});
+  backBtn.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+
+  // TOC active state highlighting
+  var tocLinks = Array.prototype.slice.call(document.querySelectorAll('[data-toc]'));
+  var parts = Array.prototype.slice.call(document.querySelectorAll('.part'));
+  if ('IntersectionObserver' in window) {
+    var observer = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        var id = entry.target.getAttribute('id');
+        var link = document.querySelector('.toc-list a[href="#' + id + '"]');
+        if (!link) return;
+        if (entry.isIntersecting) {
+          tocLinks.forEach(function(l){ l.classList.remove('active'); });
+          link.classList.add('active');
+        }
+      });
+    }, { rootMargin: '-15% 0px -70% 0px', threshold: 0 });
+    parts.forEach(function(p){ observer.observe(p); });
+  }
+
+  // Mobile TOC toggle
+  var mobileToggle = document.getElementById('mobile-toc-toggle');
+  var sidebar = document.querySelector('.sidebar');
+  if (window.innerWidth <= 980) { sidebar.classList.add('collapsed'); }
+  mobileToggle.addEventListener('click', function(){
+    var collapsed = sidebar.classList.toggle('collapsed');
+    mobileToggle.setAttribute('aria-expanded', String(!collapsed));
+  });
+
+  // Deep-link: open the relevant <details> if URL has a hash to a clause
+  function openTargetFromHash(){
+    var hash = window.location.hash;
+    if (!hash) return;
+    var target = document.querySelector(hash);
+    if (target && target.tagName === 'DETAILS') {
+      target.setAttribute('open','');
+    }
+  }
+  window.addEventListener('hashchange', openTargetFromHash);
+  openTargetFromHash();
+})();
+</script>
+</body>
+</html>
