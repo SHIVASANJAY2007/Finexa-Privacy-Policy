@@ -1,13 +1,1696 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="refresh" content="0; url=/Privacy%20policy/">
-  <title>Finexa AI Privacy Policy</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Legal Centre | Finexa AI &mdash; Risk Warnings, Privacy Policy &amp; Terms of Use</title>
+<meta name="description" content="The complete legal framework for Finexa AI: financial risk warnings and disclaimers, the Privacy Policy governing the Finexa AI application and its WhatsApp Business Platform integration, and the Terms of Use including AI output limitations. Compliant with GDPR, CCPA/CPRA, India's DPDP Act 2023, UK GDPR and PECR. Finexa AI provides educational and analytical algorithmic tools only and is not a SEBI-registered investment advisor, broker, custodian or fiduciary.">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Finexa AI">
+<link rel="canonical" href="https://finexa-privacy-policy.vercel.app/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Legal Centre | Finexa AI">
+<meta property="og:description" content="Financial risk warnings, the Finexa AI Privacy Policy, and the Terms of Use including AI output limitations. Educational and analytical algorithmic tools only &mdash; not licensed financial advice.">
+<meta property="og:url" content="https://finexa-privacy-policy.vercel.app/">
+<meta property="og:site_name" content="Finexa AI">
+<meta property="og:locale" content="en_US">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Legal Centre | Finexa AI">
+<meta name="twitter:description" content="Risk warnings, Privacy Policy, Terms of Use and AI limitations for Finexa AI.">
+
+<style>
+:root{
+  --ink-950:#0e1626;
+  --ink-900:#131c30;
+  --ink-800:#1c2740;
+  --ink-700:#2b3a5c;
+  --paper-50:#f7f4ee;
+  --paper-100:#efe9dd;
+  --brass-500:#b8925a;
+  --brass-600:#9c7644;
+  --slate-500:#5b6b8c;
+  --slate-300:#a9b4cc;
+  --line:#dcd4c2;
+  --ok-green:#3f6b52;
+
+  --bg:var(--paper-50);
+  --bg-elevated:#ffffff;
+  --text:var(--ink-950);
+  --text-muted:#5a5f6b;
+  --card-bg:#ffffff;
+  --card-border:var(--line);
+  --accent:var(--brass-600);
+  --accent-contrast:#ffffff;
+  --nav-bg:rgba(247,244,238,0.86);
+  --shadow:0 1px 2px rgba(14,22,38,.04), 0 8px 24px rgba(14,22,38,.06);
+  --shadow-lg:0 4px 10px rgba(14,22,38,.06), 0 20px 48px rgba(14,22,38,.10);
+  --serif: Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', serif;
+  --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+}
+
+[data-theme="dark"]{
+  --bg:var(--ink-950);
+  --bg-elevated:var(--ink-900);
+  --text:#eef1f8;
+  --text-muted:#a9b0c4;
+  --card-bg:var(--ink-900);
+  --card-border:var(--ink-700);
+--accent:#d3ab74;
+  --accent-contrast:#0e1626;
+  --ok-green:#7fc39a;
+  --nav-bg:rgba(14,22,38,0.86);
+  --shadow:0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.35);
+  --shadow-lg:0 4px 10px rgba(0,0,0,.35), 0 24px 60px rgba(0,0,0,.45);
+}
+
+*,*::before,*::after{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0;
+  font-family:var(--sans);
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.65;
+  transition:background .25s ease, color .25s ease;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;}
+a{color:var(--accent);}
+::selection{background:var(--brass-500);color:#fff;}
+
+/* Skip link */
+.skip-link{
+  position:absolute;left:-999px;top:auto;
+  background:var(--ink-950);color:#fff;padding:.75rem 1.25rem;
+  border-radius:.5rem;z-index:1000;font-weight:600;
+}
+.skip-link:focus{left:1rem;top:1rem;}
+
+/* Progress bar */
+#progress-bar{
+  position:fixed;top:0;left:0;height:3px;width:0%;
+  background:linear-gradient(90deg,var(--brass-500),var(--brass-600));
+  z-index:1200;transition:width .1s linear;
+}
+
+/* Top nav */
+header.topnav{
+  position:sticky;top:0;z-index:1100;
+  background:var(--nav-bg);
+  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--card-border);
+}
+.topnav-inner{
+  max-width:1400px;margin:0 auto;padding:.85rem 1.5rem;
+  display:flex;align-items:center;justify-content:space-between;gap:1rem;
+}
+.brand{display:flex;align-items:center;gap:.6rem;font-family:var(--serif);font-weight:700;font-size:1.15rem;letter-spacing:.02em;color:var(--text);text-decoration:none;}
+.brand svg{flex-shrink:0;}
+.topnav-actions{display:flex;align-items:center;gap:.5rem;}
+.icon-btn{
+  border:1px solid var(--card-border);background:var(--card-bg);color:var(--text);
+  width:2.4rem;height:2.4rem;border-radius:999px;display:flex;align-items:center;justify-content:center;
+  cursor:pointer;transition:transform .15s ease, box-shadow .15s ease;
+}
+.icon-btn:hover{transform:translateY(-1px);box-shadow:var(--shadow);}
+.icon-btn:focus-visible, a:focus-visible, button:focus-visible, summary:focus-visible{
+  outline:3px solid var(--brass-500);outline-offset:2px;
+}
+.print-btn{display:flex;align-items:center;gap:.4rem;font-size:.85rem;font-weight:600;padding:.5rem 1rem;border-radius:999px;border:1px solid var(--card-border);background:var(--card-bg);color:var(--text);cursor:pointer;}
+
+/* Hero */
+.hero{
+  position:relative;overflow:hidden;
+  padding:5.5rem 1.5rem 4rem;
+  text-align:center;
+  border-bottom:1px solid var(--card-border);
+}
+.hero::before{
+  content:"";position:absolute;inset:0;
+  background:
+    radial-gradient(60% 60% at 50% 0%, rgba(184,146,90,.12), transparent 70%);
+  pointer-events:none;
+}
+.seal{
+  width:96px;height:96px;margin:0 auto 1.5rem;
+  border-radius:999px;border:2px solid var(--accent);
+  display:flex;align-items:center;justify-content:center;
+  position:relative;
+}
+.seal::before{
+  content:"";position:absolute;inset:6px;border:1px dashed var(--accent);border-radius:999px;opacity:.6;
+}
+.hero-eyebrow{
+  display:inline-block;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--accent);font-weight:700;margin-bottom:1rem;
+}
+.hero h1{
+  font-family:var(--serif);font-size:clamp(2.1rem,4.5vw,3.4rem);line-height:1.15;margin:.2rem auto 1rem;max-width:16ch;
+}
+.hero p.lede{color:var(--text-muted);max-width:56ch;margin:0 auto 1.5rem;font-size:1.08rem;}
+.hero-meta{display:flex;flex-wrap:wrap;gap:.6rem 1.2rem;justify-content:center;font-size:.85rem;color:var(--text-muted);}
+.hero-meta strong{color:var(--text);}
+
+/* Layout */
+.layout{
+  max-width:1400px;margin:0 auto;padding:2.5rem 1.5rem 6rem;
+  display:grid;grid-template-columns:280px minmax(0,1fr);gap:3rem;align-items:start;
+}
+.sidebar{
+  position:sticky;top:5rem;max-height:calc(100vh - 6rem);overflow-y:auto;
+  padding-right:.5rem;
+}
+.sidebar h2{font-size:.72rem;text-transform:uppercase;letter-spacing:.12em;color:var(--text-muted);margin:0 0 .8rem;}
+.toc-list{list-style:none;margin:0;padding:0;}
+.toc-list li{margin-bottom:.15rem;}
+.toc-list a{
+  display:block;padding:.5rem .7rem;border-radius:.6rem;text-decoration:none;
+  color:var(--text-muted);font-size:.88rem;border-left:2px solid transparent;transition:all .15s ease;
+}
+.toc-list a:hover{background:var(--card-bg);color:var(--text);}
+.toc-list a.active{color:var(--text);font-weight:700;border-left:2px solid var(--accent);background:var(--card-bg);}
+
+main{min-width:0;}
+.intro-card{
+  background:var(--card-bg);border:1px solid var(--card-border);border-radius:1rem;
+  padding:1.6rem 1.8rem;box-shadow:var(--shadow);margin-bottom:2.5rem;
+}
+.intro-card p{margin:.4rem 0;color:var(--text-muted);}
+
+.part{margin-bottom:3.2rem;scroll-margin-top:5.5rem;}
+.part-header{
+  display:flex;align-items:baseline;gap:.9rem;margin-bottom:1.1rem;padding-bottom:.8rem;
+  border-bottom:1px solid var(--card-border);
+}
+.part-number{font-family:var(--serif);font-size:1rem;color:var(--accent);font-weight:700;}
+.part-header h2{font-family:var(--serif);font-size:1.55rem;margin:0;}
+
+details.clause{
+  background:var(--card-bg);border:1px solid var(--card-border);border-radius:.85rem;
+  margin-bottom:.7rem;box-shadow:var(--shadow);overflow:hidden;scroll-margin-top:5.5rem;
+  transition:box-shadow .18s ease, transform .18s ease;
+}
+details.clause[open]{box-shadow:var(--shadow-lg);}
+details.clause summary{
+  cursor:pointer;list-style:none;padding:1rem 1.3rem;font-weight:700;
+  display:flex;align-items:center;gap:.7rem;
+}
+details.clause summary::-webkit-details-marker{display:none;}
+details.clause summary .chev{margin-left:auto;transition:transform .2s ease;flex-shrink:0;color:var(--text-muted);}
+details.clause[open] summary .chev{transform:rotate(90deg);}
+details.clause summary .idx{
+  font-family:var(--mono);font-size:.75rem;color:var(--accent-contrast);background:var(--accent);
+  padding:.15rem .5rem;border-radius:.4rem;flex-shrink:0;
+}
+.clause-body{padding:0 1.3rem 1.2rem 1.3rem;color:var(--text-muted);}
+.clause-body p{margin:0 0 .8rem;}
+.clause-body p:last-child{margin-bottom:0;}
+.clause-body strong{color:var(--text);}
+
+table.dtable{width:100%;border-collapse:collapse;margin:.6rem 0 1rem;font-size:.92rem;}
+table.dtable th, table.dtable td{border:1px solid var(--card-border);padding:.55rem .7rem;text-align:left;}
+table.dtable th{background:var(--bg);color:var(--text);}
+
+.callout{
+  border-left:3px solid var(--accent);background:var(--bg);padding:.8rem 1rem;border-radius:.5rem;margin:.7rem 0;font-size:.92rem;
+}
+
+footer.site-footer{
+  border-top:1px solid var(--card-border);padding:3rem 1.5rem 2.5rem;text-align:center;color:var(--text-muted);font-size:.88rem;
+}
+footer.site-footer .foot-links{display:flex;flex-wrap:wrap;justify-content:center;gap:1rem 1.6rem;margin-bottom:1.2rem;}
+footer.site-footer a{color:var(--text-muted);text-decoration:none;}
+footer.site-footer a:hover{color:var(--accent);}
+
+#back-to-top{
+  position:fixed;right:1.5rem;bottom:1.5rem;z-index:1000;
+  width:3rem;height:3rem;border-radius:999px;border:1px solid var(--card-border);
+  background:var(--card-bg);color:var(--text);box-shadow:var(--shadow-lg);
+  display:flex;align-items:center;justify-content:center;cursor:pointer;
+  opacity:0;pointer-events:none;transform:translateY(10px);transition:all .25s ease;
+}
+#back-to-top.show{opacity:1;pointer-events:auto;transform:translateY(0);}
+
+.mobile-toc-toggle{display:none;}
+
+@media (max-width:980px){
+  .layout{grid-template-columns:1fr;}
+  .sidebar{
+    position:static;max-height:none;order:2;
+  }
+  .sidebar.collapsed .toc-list{display:none;}
+  .mobile-toc-toggle{
+    display:flex;align-items:center;justify-content:space-between;width:100%;
+    background:var(--card-bg);border:1px solid var(--card-border);border-radius:.7rem;
+    padding:.8rem 1rem;font-weight:700;cursor:pointer;margin-bottom:.8rem;
+  }
+}
+
+/* ===== Risk banner, inline list, definition rows, acknowledge card ===== */
+.risk-banner{
+  background:var(--card-bg);
+  border:1px solid var(--card-border);
+  border-left:4px solid var(--ink-950);
+  border-radius:1rem;
+  padding:1.3rem 1.6rem;
+  margin:0 0 2rem;
+  box-shadow:var(--shadow);
+}
+[data-theme="dark"] .risk-banner{border-left-color:var(--brass-500);}
+.risk-banner h2{
+  font-family:var(--serif);font-size:1.05rem;margin:0 0 .5rem;
+  display:flex;align-items:center;gap:.6rem;letter-spacing:.04em;text-transform:uppercase;
+}
+.risk-banner h2::before{content:"";width:.85rem;height:.85rem;border-radius:50%;background:var(--ink-950);flex:0 0 .85rem;}
+[data-theme="dark"] .risk-banner h2::before{background:var(--brass-500);}
+.risk-banner p{margin:0 0 .55rem;color:var(--text-muted);}
+.risk-banner p:last-child{margin-bottom:0;}
+.risk-banner strong{color:var(--text);}
+
+.clause-body ul{margin:.4rem 0 .9rem;padding-left:1.15rem;}
+.clause-body ul li{margin-bottom:.45rem;}
+.clause-body ul li::marker{color:var(--accent);}
+.clause-body h4{margin:1.1rem 0 .5rem;font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);}
+.clause-body ol{margin:.4rem 0 .9rem;padding-left:1.25rem;}
+
+.deflist{display:grid;gap:.5rem;margin:.5rem 0 .9rem;}
+.deflist>div{display:grid;grid-template-columns:minmax(130px,190px) 1fr;gap:12px;padding:.6rem .75rem;background:var(--bg);border:1px solid var(--card-border);border-radius:.6rem;}
+.deflist dt{font-weight:700;color:var(--text);font-size:.9rem;}
+.deflist dd{margin:0;font-size:.9rem;}
+@media (max-width:640px){ .deflist>div{grid-template-columns:1fr;gap:3px;} }
+
+.ack-card{
+  background:var(--card-bg);
+  border:1px solid var(--card-border);
+  border-top:3px solid var(--brass-500);
+  border-radius:1rem;
+  padding:1.5rem 1.7rem;
+  margin:2.5rem 0 0;
+  box-shadow:var(--shadow);
+}
+.ack-card h2{font-family:var(--serif);font-size:1.3rem;margin:0 0 .6rem;}
+.ack-card p{margin:0 0 .9rem;color:var(--text-muted);}
+.ack-row{display:flex;align-items:flex-start;gap:.7rem;flex-wrap:wrap;}
+.ack-check{display:flex;align-items:flex-start;gap:.6rem;font-size:.9rem;color:var(--text-muted);cursor:pointer;flex:1 1 320px;min-width:0;}
+.ack-check input{
+  appearance:none;-webkit-appearance:none;flex:0 0 auto;
+  width:1.1rem;height:1.1rem;margin:.15rem 0 0;
+  border:1px solid var(--card-border);border-radius:.3rem;background:var(--bg);cursor:pointer;position:relative;
+}
+.ack-check input:checked{background:var(--brass-500);border-color:var(--brass-500);}
+.ack-check input:checked::after{content:"";position:absolute;left:.34rem;top:.12rem;width:.3rem;height:.6rem;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(42deg);}
+.ack-btn{
+  font-family:var(--sans);font-size:.88rem;font-weight:700;
+  padding:.7rem 1.4rem;border-radius:999px;cursor:pointer;
+  border:1px solid var(--brass-500);background:var(--accent);color:var(--accent-contrast);
+  transition:opacity .15s ease, transform .15s ease;
+}
+.ack-btn:disabled{opacity:.45;cursor:not-allowed;}
+.ack-btn:not(:disabled):hover{transform:translateY(-1px);}
+.ack-btn.done{
+  background:transparent;
+  color:var(--ok-green);
+  border-color:var(--ok-green);
+  cursor:default;
+  opacity:1;
+}
+.ack-status{margin:.9rem 0 0;font-size:.85rem;color:var(--ok-green);font-weight:600;}
+.ack-status:empty{display:none;}
+
+@media (max-width:640px){
+  .risk-banner,.ack-card{padding:1.1rem 1.15rem;}
+  .ack-row{gap:.6rem;}
+  .ack-btn{width:100%;}
+}
+
+@media print{
+  header.topnav,.sidebar,#back-to-top,#progress-bar,.skip-link,.ack-card{display:none !important;}
+  details.clause{break-inside:avoid;box-shadow:none;border-color:#ccc;}
+  details.clause .clause-body{display:block !important;}
+  .layout{display:block;}
+  body{background:#fff;color:#000;}
+}
+
+@media (prefers-reduced-motion: reduce){
+  *{scroll-behavior:auto !important;transition:none !important;animation:none !important;}
+}
+</style>
 </head>
 <body>
-  <p>Redirecting to the <a href="/Privacy%20policy/">Finexa AI Privacy Policy</a>.</p>
-  <script>window.location.replace("/Privacy%20policy/");</script>
+
+<a href="#main-content" class="skip-link">Skip to main content</a>
+<div id="progress-bar" role="progressbar" aria-hidden="true"></div>
+
+<header class="topnav">
+  <div class="topnav-inner">
+    <a href="#top" class="brand" aria-label="Finexa AI home">
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+        <rect x="1" y="1" width="26" height="26" rx="8" stroke="currentColor" stroke-width="1.4"/>
+        <path d="M8 9L14 20L20 9" stroke="var(--brass-600)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      Finexa AI
+    </a>
+    <div class="topnav-actions">
+      <button class="print-btn" onclick="window.print()" aria-label="Print this policy">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9V2h12v7M6 18H4a1 1 0 0 1-1-1v-6a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2M6 14h12v8H6z" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Print
+      </button>
+      <button class="icon-btn" id="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false">
+        <svg id="theme-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M12 3v2M12 19v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M3 12h2M19 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <circle cx="12" cy="12" r="4.5" stroke="currentColor" stroke-width="1.5"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="seal" aria-hidden="true">
+    <svg width="40" height="40" viewBox="0 0 24 24" fill="none"><path d="M9 12.5l2 2 4-5" stroke="var(--brass-600)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </div>
+  <span class="hero-eyebrow">Legal &amp; Compliance</span>
+  <h1>Financial Warnings, Privacy Policy &amp; Terms of Use</h1>
+  <p class="lede">This document is the complete legal framework for the Finexa AI platform. It consolidates our financial risk disclosures, our Privacy Policy, and our Terms of Use including the limitations of our AI output. Please read Part I and Part XVI in full before you rely on anything the platform produces.</p>
+  <div class="hero-meta">
+    <span><strong>Effective Date:</strong> August 1, 2026</span>
+    <span><strong>Last Updated:</strong> October 2, 2026</span>
+    <span><strong>Version:</strong> 1.0</span>
+    <span><strong>Applies to:</strong> Web, iOS, Android, WhatsApp</span>
+  </div>
+</section>
+
+<div class="layout">
+  <nav class="sidebar" aria-label="Table of contents">
+    <button class="mobile-toc-toggle" id="mobile-toc-toggle" aria-expanded="true" aria-controls="toc-list">
+      Table of Contents
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <h2>Table of Contents</h2>
+    <ul class="toc-list" id="toc-list">
+      <li><a href="#part-1" data-toc>I. Financial Warning &amp; Risk Disclaimer</a></li>
+      <li><a href="#part-2" data-toc>II. Introduction, Scope &amp; Definitions</a></li>
+      <li><a href="#part-3" data-toc>III. Legal Basis for Processing</a></li>
+      <li><a href="#part-4" data-toc>IV. Information We Collect</a></li>
+      <li><a href="#part-5" data-toc>V. Device, Cookies &amp; Technical Data</a></li>
+      <li><a href="#part-6" data-toc>VI. WhatsApp &amp; Meta Platform Data</a></li>
+      <li><a href="#part-7" data-toc>VII. AI, Documents &amp; Conversation Data</a></li>
+      <li><a href="#part-8" data-toc>VIII. Financial &amp; Budgeting Data</a></li>
+      <li><a href="#part-9" data-toc>IX. Analytics, ML &amp; Automated Decisions</a></li>
+      <li><a href="#part-10" data-toc>X. Communications &amp; Marketing</a></li>
+      <li><a href="#part-11" data-toc>XI. Third-Party Services &amp; Processors</a></li>
+      <li><a href="#part-12" data-toc>XII. Disclosure, Transfers &amp; Retention</a></li>
+      <li><a href="#part-13" data-toc>XIII. Your Privacy Rights</a></li>
+      <li><a href="#part-14" data-toc>XIV. International Transfers &amp; Security</a></li>
+      <li><a href="#part-15" data-toc>XV. Children, Changes &amp; Governance</a></li>
+      <li><a href="#part-16" data-toc>XVI. Terms of Use &amp; AI Limitations</a></li>
+    </ul>
+  </nav>
+
+  <main id="main-content">
+    <div class="risk-banner">
+      <h2>Warning</h2>
+      <p><strong>Finexa AI provides algorithmic tools and educational insights, not licensed financial advice. Never invest money based solely on AI output.</strong></p>
+      <p>Finexa AI is <strong>not</strong> a SEBI-registered investment advisor, research analyst, broker, custodian or fiduciary, and is <strong>not</strong> a certified financial planner. All AI responses, stock forecasts, portfolio allocations (including the AlphaPack Grey Wolf Optimizer) and calculator outputs are algorithmic suggestions and simulations &mdash; <strong>not</strong> investment mandates, personal recommendations or guarantees of return.</p>
+      <p>Trading equities, derivatives and crypto carries a substantial risk of losing your entire capital. <strong>You bear sole responsibility for every financial decision you make.</strong></p>
+    </div>
+
+    <div class="intro-card">
+      <p><strong>Finexa AI</strong>, the entity that operates the Service (referred to in this document as "the Company," "we," "us," or "our"), respects your privacy and is committed to protecting it through compliance with this document.</p>
+      <p>This document consists of three parts. <strong>Part I</strong> contains our Financial Warning &amp; Risk Disclaimer, which forms an integral part of our Terms of Use. <strong>Parts II to XV</strong> contain our Privacy Policy. <strong>Part XVI</strong> contains our Terms of Use and the limitations of our AI output.</p>
+      <p>By accessing or using the Service, you acknowledge that you have read, understood and agree to be bound by this document in its entirety. Use the Table of Contents on the left to navigate directly to any section, or use the collapsible headings below to expand each clause. This document is print-friendly and screen-reader accessible.</p>
+    </div>
+<section class="part" id="part-1">
+      <div class="part-header"><span class="part-number">Part I</span><h2>Financial Warning &amp; Risk Disclaimer</h2></div>
+
+      <div class="callout" style="margin:0 0 1.1rem;"><strong>Read this Part before you use any feature of the Service.</strong> It describes the nature of the Service, the limitations of its outputs, and the financial risks you assume by acting on information presented within it. Acceptance of this Part is a condition of access.</div>
+
+      <details class="clause" id="sec-w-1" open>
+        <summary><span class="idx">W1</span> FINEXA AI does not provide investment advice <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>Nothing published, displayed, generated, calculated, optimised or simulated within the Finexa AI platform &mdash; including this document &mdash; constitutes <strong>investment advice</strong>, a <strong>personal recommendation</strong>, an <strong>offer</strong>, a <strong>solicitation</strong>, or an instruction to enter into any transaction in any security, financial instrument, digital asset or commodity.</p>
+          <p>The platform exists to provide <strong>educational material, informational datasets, analytical tooling and quantitative simulation</strong>. It is not designed to, and does not, tell you what to buy, what to sell, when to trade, or how much capital to commit.</p>
+          <p>No output of the platform &mdash; including portfolio weights, optimiser solutions, correlation matrices, expected returns, risk scores, or narrative commentary &mdash; has been prepared in accordance with the suitability, appropriateness or best-interest obligations that apply to a registered investment advisor. Outputs are generated from general models and general data and are <strong>not</strong> tailored to your financial situation, objectives, risk tolerance, investment horizon, tax position or liabilities.</p>
+          <div class="callout"><strong>You remain solely responsible for every investment decision you take.</strong> If a Finexa AI output is inconsistent with your own analysis, you must disregard that output.</div>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-w-2">
+        <summary><span class="idx">W2</span> No SEBI registration, licence or recognised-representative status <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>Finexa AI is <strong>not registered</strong> with the <strong>Securities and Exchange Board of India (SEBI)</strong> as an Investment Advisor, Investment Manager, Research Analyst, Portfolio Manager, Broker, Sub-Broker, Custodian, Clearing Member, Trading Member, or in any other intermediary capacity. Finexa AI holds no SEBI registration number, no Research Analyst Registration number, and no Certificate of Registration under the SEBI (Investment Advisors) Regulations, 2013 or any other applicable regulation.</p>
+          <p>Accordingly, the Company is not a registered entity for the purposes of the SEBI (Investment Advisors) Regulations, 2013, the SEBI (Research Analysts) Regulations, 2014, the SEBI (Intermediaries) Regulations, 2015, or the SEBI (Brokers and Sub-Brokers) Regulations, 2018. <strong>No statutory fiduciary duty, suitability obligation, best-execution obligation, disclosure obligation, or client-asset segregation obligation arises from your use of the platform.</strong></p>
+          <p>The platform does not receive, transmit, hold, custody, route, settle or execute orders. It cannot place trades on your behalf, and it has no connection to any exchange, depository, clearing corporation, or broker-dealer.</p>
+          <div class="callout">If you require a regulated, personalised recommendation, you must engage a SEBI-registered Investment Advisor or Research Analyst directly, verify their registration number on the SEBI public register at <strong>www.sebi.gov.in</strong>, and pay them a fee. Do not rely on Finexa AI as a substitute.</div>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-w-3">
+        <summary><span class="idx">W3</span> Not a broker, custodian, fiduciary or certified financial planner <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>The Company is <strong>not</strong> a broker, sub-broker, custodian, clearing member, depository, or a registered fiduciary. It is <strong>not</strong> a Certified Financial Planner, CFP&reg;, Chartered Financial Analyst, or licensed adviser of any kind. Nothing in the Service, and nothing in your use of it, creates a fiduciary, advisory, agency or managed-account relationship.</p>
+          <p>We do not manage money, hold or custody assets, execute orders, rebalance portfolios, or exercise any discretion over your decisions. <strong>You are the sole decision-maker for every buy, sell, hold, allocate or abstain decision you take.</strong></p>
+          <p>The platform has no access to your brokerage account, your bank account, your holdings, your net worth, or your identity documents, and it has no capability to move money.</p>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-w-4" open>
+        <summary><span class="idx">W4</span> Educational and analytical purpose <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>The platform is provided for <strong>educational, informational and analytical purposes only</strong>: to help you understand concepts, learn quantitative methods, and explore hypothetical scenarios so that you can conduct your own research more effectively.</p>
+          <p>It is <strong>not</strong> a signal service, a research desk, a recommendation engine, a portfolio construction service, a robo-advisor, or a managed account. It does not monitor your positions, alert you to drawdown, or intervene in any market event. <strong>We will not contact you to protect your capital.</strong></p>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-w-5">
+        <summary><span class="idx">W5</span> No guarantee of results <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p><strong>There is no guarantee, express or implied, of the accuracy, completeness, timeliness, correctness or profitability of any output of the platform.</strong> Nothing in the Service is a promise, guarantee, warranty, assurance or undertaking of any return, profit, yield or performance of any kind.</p>
+          <p>You acknowledge that:</p>
+          <ul>
+            <li>a broad user base experiences losses, and past behaviour does not indicate future results;</li>
+            <li>no output will be accurate, complete, timely or profitable in your circumstances;</li>
+            <li>we may change, revise, correct or withdraw any model, algorithm, calculator, data source or content at any time without notice; and</li>
+            <li>all risk of loss arising from reliance on, or failure to act on, any output rests entirely with you.</li>
+          </ul>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-w-6" open>
+        <summary><span class="idx">W6</span> AI hallucination, fabrication, bias and model error <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p><strong>Large Language Models and the algorithmic engines behind the Service can and do produce output that is wrong.</strong> This is a fundamental property of the technology, not an occasional defect we are working to eliminate. You must assume that any output you read may be incorrect until you have independently verified it.</p>
+          <h4>Known failure modes</h4>
+          <dl class="deflist">
+            <div><dt>Hallucination</dt><dd>The model generates statements, statistics, citations, company names, regulatory references, dates and technical details that sound authoritative and are entirely fabricated. A fluent sentence is not a true sentence.</dd></div>
+            <div><dt>Confident error</dt><dd>The most dangerous category. The model states an incorrect figure or conclusion in exactly the same tone and with the same apparent certainty as a correct one. No tone, hedge or formatting cue reliably distinguishes them.</dd></div>
+            <div><dt>Outdated figures</dt><dd>Model weights carry a knowledge cut-off. Rules, prices, holdings, indices, ratios, tax provisions and company facts may have changed since. The model may describe the world as it was, not as it is.</dd></div>
+            <div><dt>Misattribution</dt><dd>Data or commentary may be attributed to the wrong instrument, entity, jurisdiction, period or author. A correct fact attached to the wrong subject is a false claim.</dd></div>
+            <div><dt>Confabulated specifics</dt><dd>Precise-looking numbers &mdash; percentages, ratios, CAGRs, Sharpe ratios, weights, tax figures &mdash; may be invented. Plausible precision is a symptom of fabrication, not evidence of rigour.</dd></div>
+            <div><dt>Bias</dt><dd>Training data reflects human bias, recency effects, survivorship in coverage, and over-representation of popular assets.</dd></div>
+            <div><dt>Mathematical error</dt><dd>Calculations, projections and optimisations can contain arithmetic defects, formula errors, unit mismatches, invalid assumptions, or bad input data. The AI may also misinterpret your question and answer a different one.</dd></div>
+          </dl>
+          <div class="callout"><strong>Mandatory verification.</strong> Every material fact, figure, ratio, rule, tax consequence, price and corporate action that you intend to rely upon must be independently verified against a primary source &mdash; the exchange or issuer filing, the SEBI or government publication, your broker's official documentation, or a licensed professional &mdash; before you commit capital.</div>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-w-7">
+        <summary><span class="idx">W7</span> Your own due diligence (DYOR) <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p><strong>Before you commit capital, you must conduct your own due diligence ("DYOR"). This is your responsibility alone.</strong> We have not taken your circumstances into account and have no obligation to do so. At minimum, you must verify independently:</p>
+          <ul>
+            <li>the instrument's <strong>identity</strong> &mdash; that the ticker, ISIN and entity match each other;</li>
+            <li>the <strong>primary disclosure</strong> &mdash; audited financial statements, prospectus, shareholding pattern, and investor presentations, read directly from the issuer or exchange;</li>
+            <li>the <strong>current SEBI registration</strong> of any broker, adviser, fund, custodian or counterparty, verified on the SEBI public register;</li>
+            <li>the <strong>current regulatory and tax position</strong> from the regulator or government publication rather than any summary, including this one;</li>
+            <li>the <strong>liquidity, borrow availability and settlement mechanics</strong> of any instrument you intend to trade;</li>
+            <li>the <strong>concentration, pledging and promoter-holding</strong> profile of the company, a frequent source of permanent capital loss; and</li>
+            <li><strong>independent, licensed advice</strong> from a SEBI-registered Investment Advisor, a Certified Financial Planner, a Chartered Accountant or a qualified lawyer, as appropriate.</li>
+          </ul>
+          <div class="callout">If you commit capital without verifying the facts against primary sources, you do so at your own risk and with no recourse to the Company.</div>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-w-8">
+        <summary><span class="idx">W8</span> AlphaPack Grey Wolf Optimizer: simulation only, not a mandate <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>The <strong>AlphaPack Grey Wolf Optimizer (GWO)</strong> is a metaheuristic solver inspired by grey wolf pack hunting behaviour. It searches for candidate portfolio weight vectors that maximise a stated objective &mdash; typically a risk-adjusted return measure such as a Sharpe-like ratio &mdash; subject to the constraints you supply. Its purpose is <strong>quantitative education and exploration of the optimisation landscape</strong>.</p>
+          <p>An optimiser output is the <strong>mathematically optimal solution to the objective and constraints you gave it</strong>. It does not know whether your expected returns are achievable, whether your correlations are accurate or will persist, whether the instruments are liquid or borrowable, or your tax position, liabilities, cash needs, horizon or genuine risk capacity.</p>
+          <p><strong>A precise, converged, well-formatted allocation vector is a statement about your inputs, not about the market.</strong> Two users supplying different inputs will receive materially different allocations; both will be "optimal" for what was asked. Optimiser output is not a recommended portfolio, an advised allocation, an approved mandate, or a model portfolio you should mirror. We do not manage, rebalance or monitor portfolios.</p>
+          <div class="callout"><strong>Never treat an AlphaPack allocation as a trade list.</strong> It is a teaching instrument.</div>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-w-9">
+        <summary><span class="idx">W9</span> Backtests, simulations and calculator outputs <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>Any backtest, equity curve, drawdown chart, Monte-Carlo fan chart, projection, compound-growth estimate or performance attribution displayed on the platform is <strong>hypothetical</strong>. Hypothetical results have inherent limitations, including:</p>
+          <ul>
+            <li><strong>Look-ahead bias</strong> &mdash; using information that would not have been available at the simulated time.</li>
+            <li><strong>Survivorship bias</strong> &mdash; excluding delisted, bankrupt or acquired instruments that a real portfolio would have held and lost.</li>
+            <li>Assumptions of <strong>idealised liquidity, frictionless execution, no slippage, no market impact, and no capacity constraint</strong>.</li>
+            <li>General <strong>omission of transaction costs, brokerage, taxes, stamp duty, GST, custody charges and borrow costs</strong>.</li>
+            <li>Sensitivity to <strong>the chosen start date, end date, frequency, rebalancing schedule and data vendor</strong>. Small changes can transform results.</li>
+            <li>An assumption that capital was <strong>available and deployed throughout the period</strong>, which is rarely true in practice.</li>
+            <li>No accounting for <strong>your</strong> circumstances: taxes, liabilities, cash needs, risk capacity, or behavioural tendencies.</li>
+          </ul>
+          <p><strong>No one has been consulted, and no position was actually held.</strong> Hypothetical results are not indicative of future performance and carry no guarantee of being achieved in a live account. Stock forecasts and price targets carry no guarantee of accuracy, reliability or profitability. <strong>Never buy, sell, hold, short or leverage a position on the basis of an AI-generated forecast, price target, allocation or calculator result alone.</strong></p>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-w-10" open>
+        <summary><span class="idx">W10</span> We never compel, direct, pressure or induce you to invest <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p><strong>Finexa AI will never ask you to deposit money, fund an account, add capital, place an order, execute a trade, subscribe to a product, or invest.</strong> We do not operate a deposit, wallet, or fund-flow product. We cannot accept your funds and we cannot receive your securities.</p>
+          <p>Specifically, and without limitation, Finexa AI will never:</p>
+          <ul>
+            <li>Send you a message instructing, urging, recommending or suggesting that you buy, sell, hold, or exit any position;</li>
+            <li>Contact you through unsolicited calls, messages or notifications with a view to inducing you to trade or invest;</li>
+            <li>Use urgency, artificial countdowns, "closing soon", "limited window", "last chance", loss-aversion or fear-of-missing-out framing to prompt action;</li>
+            <li>Present a leaderboard, ranking, performance score, or "investor return" figure in a manner that pressures you to participate;</li>
+            <li>Offer returns, yield, profit-share, principal protection, referral bonuses, cashback, deposits or any inducement tied to investing or trading;</li>
+            <li>Create or imply a relationship of subordination, dependence or exclusivity, or use dark patterns or nagging notifications to pressure continued use;</li>
+            <li>Accept, solicit, hold or transmit funds, banking credentials, card details, UPI, IMPS or NEFT handles, or brokerage login information for the purpose of executing any transaction.</li>
+          </ul>
+          <div class="callout">If you ever receive any communication purporting to be from Finexa AI requesting money, credentials, or a deposit, it is a <strong>fraud attempt</strong>. Report it to us and to the Cyber Crime portal at cybercrime.gov.in immediately.</div>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-w-11" open>
+        <summary><span class="idx">W11</span> You assume 100% of the risk and 100% of the liability <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>By accessing or using Finexa AI, you <strong>irrevocably accept, assume and agree to bear the entire risk of loss</strong> associated with your use of the platform and with every financial decision you make in reliance on it. This includes the risk of <strong>losing your entire capital, and in leveraged cases an amount exceeding your deposited capital</strong>.</p>
+          <p>You expressly confirm that:</p>
+          <ul>
+            <li>You are the <strong>sole decision-maker</strong> for every buy, sell, hold, subscribe, redeem, allocate, or abstain decision you take.</li>
+            <li>You are <strong>solely liable for 100%</strong> of the financial consequences of those decisions, including all gains, losses, fees, taxes, penalties, interest, margin calls and settlements.</li>
+            <li>You are <strong>not relying</strong> on Finexa AI as the sole basis for any decision, and you accept that a broad user base experiences losses.</li>
+            <li>You accept that <strong>no output of the platform is a promise, guarantee, warranty, or assurance</strong> of any outcome.</li>
+            <li>You accept that Finexa AI <strong>does not monitor your account, monitor your positions, warn you of drawdown, or intervene</strong> in any market event.</li>
+            <li>You will <strong>never invest money you cannot afford to lose in full</strong>, and never invest funds required for living expenses, debt obligations, education, or emergencies.</li>
+          </ul>
+          <div class="callout"><strong>Trading equities, derivatives, commodities and cryptocurrency is speculative.</strong> Leverage magnifies both gains and losses and can result in losses greater than your initial capital.</div>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-w-12">
+        <summary><span class="idx">W12</span> Risk of total loss of capital across asset classes <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>You acknowledge the following risks. This list is not exhaustive and is not a substitute for reading the full documentation of any instrument you trade.</p>
+          <dl class="deflist">
+            <div><dt>Market risk</dt><dd>Prices can and do fall, sometimes sharply and without warning. Corrections and bear markets can persist for years.</dd></div>
+            <div><dt>Volatility risk</dt><dd>Rapid, large and adverse price movements are common, including intraday gaps through your stop level, which may execute far below it.</dd></div>
+            <div><dt>Liquidity risk</dt><dd>Small and mid-cap instruments, and some derivatives and digital assets, may not be tradeable at your intended size or price. You may be unable to exit a position at all.</dd></div>
+            <div><dt>Model &amp; systemic risk</dt><dd>Correlations rise sharply in crises. Diversification assumptions that hold in normal periods can fail exactly when you most need them.</dd></div>
+            <div><dt>Equity risk</dt><dd>Company-specific events &mdash; fraud, governance failure, debt, dilution, promoter pledging, litigation, regulatory action &mdash; can permanently impair value, including to zero.</dd></div>
+            <div><dt>Derivative &amp; leverage risk</dt><dd>Futures and options can expire worthless. Leverage can produce losses exceeding capital. Margin calls can force liquidation at the worst available price. Short positions carry theoretically unlimited loss.</dd></div>
+            <div><dt>Options risk</dt><dd>Options can lose 100% of premium. Complex and multi-leg structures carry defined and undefined risk. Writing uncovered options carries potentially unlimited loss.</dd></div>
+            <div><dt>Crypto risk</dt><dd>Digital assets are speculative, largely unregulated, highly volatile, and vulnerable to exchange failure, insolvency, fraud, hacks, bridge exploits, and permanent total loss.</dd></div>
+            <div><dt>Currency risk</dt><dd>Foreign-denominated assets carry exchange-rate risk that can overwhelm the underlying return.</dd></div>
+            <div><dt>Operational &amp; counterparty risk</dt><dd>Broker failure, exchange outages, order rejection, failed settlement, and payment-system outages can leave you exposed and unable to act.</dd></div>
+            <div><dt>Regulatory &amp; policy risk</dt><dd>Rules on derivatives, taxation, capital gains, crypto, and market access can change retroactively and adversely.</dd></div>
+            <div><dt>Psychological risk</dt><dd>Loss aversion, overconfidence, recency bias, and revenge trading are among the most reliable routes to permanent loss.</dd></div>
+          </dl>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-w-13">
+        <summary><span class="idx">W13</span> Editorial independence, conflicts and advertising <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>Finexa AI publishes educational content and aggregated news without influence from any issuer, broker, sponsor or advertiser. We <strong>do not</strong> accept payment, consideration, gifts or any other benefit in exchange for favourable coverage, inclusion in any list, mention in any response, or placement within any platform feature.</p>
+          <p>Where advertising is present, it is clearly labelled and is not embedded within educational content, calculator outputs, optimiser results or assistant responses. Advertising partners do not receive your individual financial inputs, holdings data, calculator values, or portfolio parameters. <strong>We will never accept an advertiser's request to generate favourable AI output about their product.</strong></p>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-w-14">
+        <summary><span class="idx">W14</span> Third-party data limitations <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>Market data, news, indices, and fundamental information are sourced from third-party providers and public feeds, including market news APIs and cloud-hosted model inference infrastructure. We do not control that data and we do not warrant it.</p>
+          <p>Accordingly, we accept no responsibility for errors, omissions, delays, corrections or restatements in third-party data; incorrect index constituents, mislabelled tickers, or corporate actions applied incorrectly; data attributed to the wrong entity, currency, exchange or time zone; third-party AI model behaviour, changes, outages or unavailability; or content originating from user-submitted or publicly available sources.</p>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-w-15">
+        <summary><span class="idx">W15</span> How to report a concern <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>If you believe the platform has published unlicensed advice, a misleading output, an erroneous figure, or has sent you a solicitation to invest, please report it. We investigate substantiated reports and correct material errors.</p>
+          <p>You may also complain directly to the <strong>Securities and Exchange Board of India</strong> at <strong>www.sebi.gov.in</strong>, to the <strong>Cyber Crime portal</strong> at <strong>cybercrime.gov.in</strong> for fraudulent communications, or to your local police. Reporting to us does not preclude you from approaching any regulator directly.</p>
+        </div>
+      </details>
+    </section>
+
+
+<section class="part" id="part-2">
+      <div class="part-header"><span class="part-number">Part II</span><h2>Introduction, Scope &amp; Definitions</h2></div>
+
+      <details class="clause" id="sec-1" open>
+        <summary><span class="idx">1</span> Introduction <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>The Company is a company incorporated under the laws of India. The Company operates a software-as-a-service platform that helps individuals manage personal finances, budgeting, savings goals and investment planning through an AI-powered assistant accessible on the web, on native mobile applications, and via the WhatsApp Business Platform.</p>
+          <p>This Policy is drafted to give you a clear, complete and legally accurate account of our data practices. It is intended to satisfy applicable disclosure obligations under the General Data Protection Regulation ("GDPR"), the UK GDPR, the California Consumer Privacy Act as amended by the California Privacy Rights Act ("CCPA/CPRA"), India's Digital Personal Data Protection Act, 2023 ("DPDP Act"), the Privacy and Electronic Communications Regulations ("PECR"), and the platform policies of Meta Platforms, Inc. and Groq, among others.</p>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-2">
+        <summary><span class="idx">2</span> Scope <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>This Policy applies to all personal information processed by the Company in connection with the Service, regardless of the channel through which it is collected, including our website, our mobile applications distributed through the Apple App Store and Google Play, our WhatsApp Business Platform assistant, our customer support channels, and any application programming interfaces we operate or consume.</p>
+          <p>This Policy does not apply to information processed by third parties on their own behalf, including payment processors, cloud infrastructure providers, or Meta Platforms, Inc. in its capacity as the operator of WhatsApp, each of which maintains its own privacy notices governing its independent processing activities.</p>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-3">
+        <summary><span class="idx">3</span> Definitions <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <table class="dtable">
+            <tr><th>Term</th><th>Meaning</th></tr>
+            <tr><td>Personal Information / Personal Data</td><td>Any information relating to an identified or identifiable natural person, as defined under applicable law.</td></tr>
+            <tr><td>Processing</td><td>Any operation performed on personal information, including collection, storage, use, disclosure, transfer and erasure.</td></tr>
+            <tr><td>Data Fiduciary</td><td>The Company, as the entity that determines the purpose and means of processing personal data under the DPDP Act.</td></tr>
+            <tr><td>Data Principal</td><td>The individual to whom the personal data relates (referred to elsewhere in this Policy as "you" or "user").</td></tr>
+            <tr><td>Sub-processor</td><td>A third-party vendor engaged by the Company to process personal information on our behalf.</td></tr>
+            <tr><td>Service</td><td>The Finexa AI web application, mobile applications, and WhatsApp Business Platform assistant, collectively.</td></tr>
+          </table>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-4">
+        <summary><span class="idx">4</span> Acceptance of this Policy <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>By creating an account, connecting your WhatsApp number to the Finexa AI assistant, or otherwise using the Service, you affirmatively accept the terms of this Policy. Where required by applicable law, we will obtain your explicit, informed and freely given consent prior to processing particular categories of personal information, and we will provide granular consent controls within the Service settings.</p>
+          <p>If you do not agree with any part of this Policy, you must discontinue use of the Service immediately and may request deletion of your account in accordance with Part XII.</p>
+        </div>
+      </details>
+    </section>
+
+
+<section class="part" id="part-3">
+      <div class="part-header"><span class="part-number">Part III</span><h2>Legal Basis for Processing</h2></div>
+
+      <details class="clause" id="sec-5">
+        <summary><span class="idx">5</span> Legal Basis of Processing <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>Where the GDPR or UK GDPR applies, we rely on one or more of the following legal bases for each processing activity: performance of a contract with you (Article 6(1)(b)); compliance with a legal obligation (Article 6(1)(c)); our legitimate interests in operating, securing and improving the Service, provided such interests are not overridden by your fundamental rights (Article 6(1)(f)); and your explicit consent, particularly for marketing communications, non-essential cookies, and the processing of sensitive financial categories where required (Article 6(1)(a)).</p>
+          <p>Under the DPDP Act, we process personal data on the basis of your consent, obtained through clear affirmative action, or pursuant to a "certain legitimate use" recognized under the Act, such as the provision of a service you have requested or compliance with a legal obligation.</p>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-6">
+        <summary><span class="idx">6</span> Categories of Personal Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>We organize the personal information we process into the following categories: identity data (name, date of birth), contact data (email, phone number, WhatsApp number, address), financial data (income, expenses, budgets, investment and goal-planning inputs), technical data (device identifiers, IP address, browser fingerprint), usage data (in-app behavior, feature engagement), AI interaction data (prompts, uploaded documents, generated outputs), and marketing preferences.</p>
+          <p>We do not intentionally collect special categories of personal data (such as health, religious belief, or sexual orientation data) under Article 9 of the GDPR, and we ask that you refrain from submitting such information through free-text fields or document uploads.</p>
+        </div>
+      </details>
+    </section>
+
+
+<section class="part" id="part-4">
+      <div class="part-header"><span class="part-number">Part IV</span><h2>Information We Collect</h2></div>
+
+      <details class="clause" id="sec-7">
+        <summary><span class="idx">7</span> Information You Provide <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>When you register for the Service, you provide us with your full name, email address, phone number, and a password or authentication credential. You may optionally provide a profile picture, date of birth, city of residence, occupation, and a WhatsApp number for linking the conversational assistant.</p>
+          <p>Additional information you voluntarily submit through forms, surveys, support tickets, or free-text fields within the Service, including any information you choose to include in messages to our AI assistant, is also collected and processed in accordance with this Policy.</p>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-8">
+        <summary><span class="idx">8</span> Automatically Collected Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>In addition to information you actively provide, we automatically collect certain information whenever you interact with the Service, including log data, timestamps of requests, referring URLs, pages viewed, features used, session duration, and crash diagnostics. This information allows us to operate the Service reliably, diagnose faults, and understand aggregate usage patterns.</p>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-31">
+        <summary><span class="idx">31</span> Financial Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>Because the Company provides financial planning functionality, we collect the financial information you choose to enter or connect, including declared income figures, recurring expense categories, savings goals, and, where you opt to connect a bank account through a licensed account-aggregation partner, read-only transaction summaries. See Part VIII for the complete treatment of financial data categories.</p>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-101">
+        <summary><span class="idx">101</span> We Never Solicit or Store Financial or Brokerage Credentials <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p><strong>The Company has no functionality that requires us to know your financial credentials, and we will never ask you for them.</strong> The Service is a read-only analytical and educational environment. It cannot connect to, authenticate against, transact on, or instruct your brokerage account.</p>
+          <p>Credentials we <strong>never request and never store</strong> include:</p>
+          <dl class="deflist">
+            <div><dt>Brokerage credentials</dt><dd>Broker login ID, trading password, PIN, MPIN, TOTP or 2FA secret, API key, API secret, or client master / user ID.</dd></div>
+            <div><dt>Banking credentials</dt><dd>Net banking password, ATM PIN, UPI ID combined with a UPI PIN, or any bank account number we have no lawful need to hold.</dd></div>
+            <div><dt>Card data</dt><dd>Full card number, expiry date, CVV, or card PIN. We are not a payment facilitator and never process card details.</dd></div>
+            <div><dt>One-time passcodes</dt><dd>Any OTP, authentication code or verification link sent to your phone or email in connection with a financial account.</dd></div>
+            <div><dt>Wallet &amp; key material</dt><dd>Private keys, wallet seed phrases, mnemonic phrases, keystore files, or exchange withdrawal API permissions.</dd></div>
+            <div><dt>Government identifiers</dt><dd>Full Aadhaar, PAN or passport numbers. Where an identity check is genuinely required we collect only the minimum necessary, never the full document number.</dd></div>
+          </dl>
+          <p>We operate <strong>no custody, wallet, deposit, fund-flow, payment or order-execution functionality</strong>, so there is no field on the platform into which such data can legitimately be entered. We do not use remote browser capture, session hijacking, cookie replay or screen scraping to reach brokerage or banking portals. We maintain a standing policy of immediate deletion for any such credential that is nonetheless inadvertently submitted to us, together with notification to you.</p>
+          <p>Please do not submit sensitive data such as Aadhaar, PAN, bank account numbers, card numbers, OTPs, passwords, API keys or wallet seed phrases into any chat prompt, calculator field or document upload. If you do, we cannot guarantee its deletion from an inference provider's transient processing pipeline, and we ask that you refrain from doing so.</p>
+          <div class="callout"><strong>Verify before you trust.</strong> Finexa AI has no capability to move money. Any person or entity claiming to act for Finexa AI and requesting your brokerage password, trading PIN, UPI PIN, OTP, or wallet seed phrase is committing <strong>fraud</strong>. Report it to us and to the Cyber Crime portal at cybercrime.gov.in immediately.</div>
+        </div>
+      </details>
+    </section>
+
+
+<section class="part" id="part-5">
+      <div class="part-header"><span class="part-number">Part V</span><h2>Device, Cookies &amp; Technical Data</h2></div>
+
+      <details class="clause" id="sec-9">
+        <summary><span class="idx">9</span> Device Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We collect device identifiers, device model, screen resolution, and installed application version to ensure compatibility, deliver correctly formatted experiences, and detect fraudulent or automated access to the Service.</p></div>
+      </details>
+      <details class="clause" id="sec-10">
+        <summary><span class="idx">10</span> Browser Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We collect browser type, browser version, installed plugins where exposed by the browser, and rendering engine details to support cross-browser compatibility and to identify anomalous or bot-like traffic patterns.</p></div>
+      </details>
+      <details class="clause" id="sec-11">
+        <summary><span class="idx">11</span> Operating System Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We collect the operating system name and version running on your device, which we use to determine feature availability, apply security patches relevant to your platform, and prioritize engineering support for the most-used environments.</p></div>
+      </details>
+      <details class="clause" id="sec-12">
+        <summary><span class="idx">12</span> Network Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We collect network connection type (such as Wi-Fi or cellular), approximate network carrier where available, and latency metrics to optimize the delivery and performance of the Service across varying connectivity conditions.</p></div>
+      </details>
+      <details class="clause" id="sec-13">
+        <summary><span class="idx">13</span> IP Address Collection <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We collect your IP address for every request made to our servers. IP addresses are used for approximate geolocation (at city or region level only), rate limiting, fraud detection, and compliance with lawful requests from competent authorities. We do not use IP address data for individualized advertising profiling.</p></div>
+      </details>
+      <details class="clause" id="sec-14">
+        <summary><span class="idx">14</span> Cookies <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>We use strictly necessary cookies to maintain your authenticated session, preference cookies to remember your theme and language settings, and analytics cookies to understand aggregate feature usage. Where required by PECR and the ePrivacy framework, non-essential cookies are only set after you provide affirmative consent through our cookie banner, which you may withdraw at any time through the cookie preference center in your account settings.</p>
+        </div>
+      </details>
+      <details class="clause" id="sec-15">
+        <summary><span class="idx">15</span> Local Storage <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We use browser local storage to persist your theme preference, draft form entries, and cached configuration so that the Service loads faster on repeat visits. Local storage data remains on your device and is not transmitted to our servers except where you explicitly synchronize settings across devices.</p></div>
+      </details>
+      <details class="clause" id="sec-16">
+        <summary><span class="idx">16</span> Session Storage <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Session storage is used to hold transient state, such as in-progress multi-step form data and the current step of an onboarding flow, and is automatically cleared when the browser tab is closed.</p></div>
+      </details>
+      <details class="clause" id="sec-17">
+        <summary><span class="idx">17</span> Authentication Tokens <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We issue short-lived access tokens and longer-lived refresh tokens to authenticate your sessions without requiring you to re-enter credentials on every request. Tokens are stored using secure, HTTP-only cookies or platform-appropriate secure storage and are invalidated immediately upon logout or password change.</p></div>
+      </details>
+      <details class="clause" id="sec-18">
+        <summary><span class="idx">18</span> OAuth Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>If you sign in using Google Sign-In or another OAuth-based identity provider, we receive your name, email address, and profile picture as authorized by the scopes you approve during the consent flow. We do not request access to your underlying Google account data beyond what is necessary for authentication.</p></div>
+      </details>
+
+      <details class="clause" id="sec-102">
+        <summary><span class="idx">102</span> Session Preferences &amp; Interface Settings <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>To make the Service usable, we remember how you configured it. <strong>Session preferences</strong> are lightweight values such as your selected theme, display language, default currency and number format, whether calculators are set to simple or advanced mode, which sections you have expanded or collapsed, and the tab or panel you last viewed.</p>
+          <p>Where you are not signed in, these preferences are held in your browser's local storage and are <strong>not transmitted to us at all</strong>. Where you are signed in, we may synchronise them to your account so your settings follow you across devices. You may clear locally stored preferences at any time by clearing your browser storage for the domain.</p>
+          <p>We do not use session preference data to build a behavioural profile of you for advertising, and we do not sell it. Preference data is not used to make any decision with legal or similarly significant effect over you.</p>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-103">
+        <summary><span class="idx">103</span> Authentication via Clerk <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>Authentication &mdash; verifying that you are who you say you are &mdash; is performed by <strong>Clerk, Inc.</strong>, a specialist third-party identity and access management provider that we engage as a sub-processor. <strong>We do not build or store our own password database.</strong></p>
+          <h4>What Clerk handles on our behalf</h4>
+          <ul>
+            <li>Sign-up, sign-in, session issuance and session termination;</li>
+            <li>Passwordless email and one-time-code (magic link / OTP) authentication flows, and passkey or social sign-in where you select it;</li>
+            <li>Multi-factor authentication enrolment and verification;</li>
+            <li>Identity attributes returned to us after successful verification &mdash; typically your user identifier, verified email address, verified phone number, profile name, avatar and account creation timestamp;</li>
+            <li>Fraud and abuse signals, bot detection, and rate limiting on authentication attempts; and</li>
+            <li>Administrative user management and session revocation.</li>
+          </ul>
+          <p>Where you choose a password, it is hashed by Clerk before storage. <strong>We never receive, and could not disclose if asked, your plaintext password.</strong> Clerk's storage, encryption, breach-notification and sub-processing arrangements are governed by its own terms and privacy notice, which we recommend you read.</p>
+          <p>Clerk authenticates <strong>you to the Finexa AI Service only</strong>. It is not connected to your brokerage account, your bank account, your depository account, or any exchange. We cannot use it to instruct, authenticate to, or act upon any third-party financial account on your behalf. See Section 101.</p>
+          <div class="callout">We have configured our integration so that <strong>authentication data is not used to train any third-party model</strong> and is not sold by the provider. The current Sub-processor Register, including Clerk's terms, is available from our privacy contact on request.</div>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-104">
+        <summary><span class="idx">104</span> Market News APIs &amp; Third-Party Data Feeds <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>Market prices, indices, corporate actions, fundamentals, news headlines and analyst commentary displayed on the platform are <strong>obtained from third-party market news and market data APIs</strong> and from publicly available sources. We do not operate our own exchange connectivity for most instruments, and we do not control the timeliness, accuracy, completeness or licensing of that data.</p>
+          <p>Practically, this means:</p>
+          <ul>
+            <li>Quotes are <strong>delayed</strong> unless we expressly display otherwise, and are provided for information only &mdash; they are not executable prices.</li>
+            <li>Data may contain errors, omissions, corrections or restatements, and index constituents or corporate actions may be applied incorrectly.</li>
+            <li>Data may occasionally be attributed to the wrong entity, currency, exchange or time zone.</li>
+            <li>Coverage may be incomplete for some instruments, exchanges or asset classes, including certain small-cap, unlisted and digital assets.</li>
+          </ul>
+          <p>Where we display third-party news, we do not endorse the views it contains, we do not verify the accuracy of any claim made in it, and its inclusion is not a recommendation. <strong>Always confirm a figure against a primary source &mdash; the exchange, the issuer's filing, or your broker's official record &mdash; before you rely on it.</strong></p>
+          <p>Our agreements with these providers restrict how they may use the data we send them and how long they may retain it.</p>
+        </div>
+      </details>
+    </section>
+
+
+<section class="part" id="part-6">
+      <div class="part-header"><span class="part-number">Part VI</span><h2>WhatsApp &amp; Meta Platform Data</h2></div>
+
+      <details class="clause" id="sec-19">
+        <summary><span class="idx">19</span> WhatsApp Authentication <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>When you initiate a conversation with the Finexa AI assistant on WhatsApp, we receive your WhatsApp phone number and WhatsApp-registered display name through the WhatsApp Business Platform. This number is used solely to identify your account and deliver assistant responses, and is linked to your existing Finexa AI account where you have completed identity verification.</p></div>
+      </details>
+      <details class="clause" id="sec-20">
+        <summary><span class="idx">20</span> Meta Platform Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Our use of the WhatsApp Business Platform is subject to Meta's Business Tools Terms and the WhatsApp Business Platform Terms of Service. Meta Platforms, Inc. acts as an independent controller of certain metadata (such as message delivery receipts) and directs users to its own privacy policy for that processing, which is separate from and supplementary to this Policy.</p></div>
+      </details>
+      <details class="clause" id="sec-21">
+        <summary><span class="idx">21</span> Facebook Login Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Where you elect to authenticate using Facebook Login, we receive only your public profile name, email address, and profile photo, limited strictly to the permissions you approve, in compliance with Meta Platform Terms and the Facebook Platform Policy governing data minimization and prohibited data uses.</p></div>
+      </details>
+      <details class="clause" id="sec-60">
+        <summary><span class="idx">60</span> WhatsApp Business Platform (Processing Role) <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Messages you exchange with the Finexa AI assistant on WhatsApp are routed through Meta's infrastructure and delivered to our backend systems, where they are processed to generate a response and, where you have consented, retained as part of your conversation history described in Part VII. We adhere to Meta's Commerce Policy, WhatsApp Business Messaging Policy, and data retention limitations applicable to Business Solution Providers.</p></div>
+      </details>
+    </section>
+
+
+<section class="part" id="part-7">
+      <div class="part-header"><span class="part-number">Part VII</span><h2>AI, Documents &amp; Conversation Data</h2></div>
+
+      <details class="clause" id="sec-22">
+        <summary><span class="idx">22</span> AI Generated Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>The Service uses large language model technology to generate budgeting suggestions, summaries, and conversational responses. Assistant responses are generated by inference performed on <strong>Groq</strong>, our AI inference infrastructure provider, which hosts and executes the underlying open-weight models on our behalf. Outputs generated by the AI assistant are stored in association with your account so that you may review your planning history. See Section 105 for the detail of what is transmitted for inference.</p></div>
+      </details>
+
+      <details class="clause" id="sec-105">
+        <summary><span class="idx">105</span> AI Inference, Prompts &amp; Groq <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>The conversational features of the platform are powered by third-party large language models. Assistant responses are generated by inference performed on <strong>Groq</strong>, our AI inference infrastructure provider.</p>
+          <h4>What is sent for inference</h4>
+          <p>To produce a response, we transmit to our inference provider the prompt you have typed, the immediately preceding turns of that conversation so the assistant has context, and any tool or data context our system elects to retrieve for that request. If you attach a document or image, the file content is transmitted for the purpose of that single request.</p>
+          <h4>Model training</h4>
+          <p>We do not use the content of your prompts, your uploaded documents, or your personally identifiable conversation content to train third-party foundation models. Where our providers offer a contractual commitment that API-submitted content is not used for training absent separate opt-in, we configure our integrations to rely on that commitment, and we have not opted in.</p>
+          <h4>Retention at the inference layer</h4>
+          <p>Inference requests are processed transiently for the purpose of generating a response. You should nonetheless assume that any text you submit to an AI feature may be transmitted to, and temporarily processed by, infrastructure we do not physically operate. <strong>This is a further reason not to submit credentials, account identifiers or confidential documents to the assistant.</strong> See Section 101.</p>
+          <h4>Conversation history</h4>
+          <ul>
+            <li>If you are signed in, conversation history is stored against your account so you can continue a thread, and you may delete any individual thread at any time.</li>
+            <li>If you are not signed in, conversation history may be held transiently in your browser only and is not associated with you.</li>
+            <li>We may retain a limited record of prompts where necessary to investigate abuse, enforce our Terms, or comply with a lawful request.</li>
+          </ul>
+          <div class="callout">The assistant is a general-purpose system. It has no access to your brokerage account, your bank account, your portfolio, or your identity documents, and it is not permitted to give you personalised advice. It can also be wrong in ways that are fluent and confident &mdash; see Section W6 of Part I for the full explanation of AI hallucination and error.</div>
+        </div>
+      </details>
+      <details class="clause" id="sec-23">
+        <summary><span class="idx">23</span> Uploaded Documents <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>You may upload bank statements, salary slips, receipts, and other financial documents to help the AI assistant populate your budget automatically. Uploaded documents are encrypted at rest and are processed only for the purpose of extracting the specific data points you request; we do not review uploaded documents manually except where necessary to investigate abuse or a support request you have raised.</p></div>
+      </details>
+      <details class="clause" id="sec-24">
+        <summary><span class="idx">24</span> User Uploaded Files <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Files you upload for any purpose, including profile pictures and supporting documentation, are stored in access-controlled cloud storage buckets, associated with your account identifier, and deleted in accordance with the retention schedule set out in Part XII, or sooner upon your request.</p></div>
+      </details>
+      <details class="clause" id="sec-25">
+        <summary><span class="idx">25</span> PDF Processing <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>When you upload a PDF statement, our systems extract text and tabular data using automated parsing pipelines. Extracted text is transiently held in memory for processing and is persisted only in the structured, minimized form necessary to populate your budget (for example, transaction date, amount, and category), rather than as a verbatim copy of the source document, unless you elect to retain the original file.</p></div>
+      </details>
+      <details class="clause" id="sec-26">
+        <summary><span class="idx">26</span> OCR Processing <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Where you upload a scanned or photographed receipt, we use optical character recognition to convert the image into machine-readable text. This process is performed on encrypted infrastructure, and the source image is discarded after successful extraction unless you have opted to retain receipt images within your account.</p></div>
+      </details>
+      <details class="clause" id="sec-27">
+        <summary><span class="idx">27</span> AI Conversation History <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We retain your conversation history with the AI assistant to provide continuity across sessions, enable you to reference prior advice, and improve the relevance of future responses. You may clear your conversation history at any time from within account settings, which will permanently delete the stored transcript from production systems within thirty days.</p></div>
+      </details>
+      <details class="clause" id="sec-28">
+        <summary><span class="idx">28</span> Chat History <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Chat history spanning both the web-based assistant and the WhatsApp assistant is unified into a single record per account so that your planning context carries across channels, subject to the same retention and deletion controls described above.</p></div>
+      </details>
+      <details class="clause" id="sec-42">
+        <summary><span class="idx">42</span> AI Training Data <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We do not use the content of your uploaded documents or personally identifiable conversation content to train foundation models operated by third-party AI providers. Where we improve our own classification and categorization models, we use de-identified, aggregated data from which direct identifiers have been removed, consistent with data minimization principles under GDPR Article 5(1)(c).</p></div>
+      </details>
+      <details class="clause" id="sec-43">
+        <summary><span class="idx">43</span> AI Model Improvement <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Where our AI sub-processors offer a contractual commitment that API-submitted content is not used to train their models absent separate opt-in, we configure our integrations to rely on that commitment. You may review the current list of AI sub-processors and their data-use commitments in our Sub-processor Register, available on request from our privacy contact at <strong>[privacy email]</strong>.</p></div>
+      </details>
+    </section>
+
+
+<section class="part" id="part-8">
+      <div class="part-header"><span class="part-number">Part VIII</span><h2>Financial &amp; Budgeting Data</h2></div>
+
+      <details class="clause" id="sec-30">
+        <summary><span class="idx">30</span> Banking Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Where you choose to connect a bank account through a licensed account-aggregation partner regulated by the applicable financial authority, we receive read-only transaction summaries and account balances. The Company never receives or stores your online banking credentials, which are entered directly with the regulated aggregator through a secure, tokenized connection.</p></div>
+      </details>
+      <details class="clause" id="sec-32">
+        <summary><span class="idx">32</span> Income Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Income figures you declare, or that are derived from connected bank transactions, are used exclusively to power your personal budget calculations and are never disclosed to third parties for marketing or credit-scoring purposes without your separate, explicit consent.</p></div>
+      </details>
+      <details class="clause" id="sec-33">
+        <summary><span class="idx">33</span> Expense Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Expense entries, whether manually logged, imported from a connected account, or extracted from an uploaded document, are categorized using automated classification to generate the spending insights displayed within the Service.</p></div>
+      </details>
+      <details class="clause" id="sec-34">
+        <summary><span class="idx">34</span> Investment Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Where you input details of existing investments to model a financial plan, this information is treated with the same protections as banking data and is never used to solicit you on behalf of any investment product provider without your explicit, separately obtained consent.</p></div>
+      </details>
+      <details class="clause" id="sec-35">
+        <summary><span class="idx">35</span> Goal Planning Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Goals you set within the Service, such as a target date and amount for a savings objective, are used to calculate the recommended monthly contribution shown in your dashboard and are stored for as long as your account remains active.</p></div>
+      </details>
+      <details class="clause" id="sec-36">
+        <summary><span class="idx">36</span> Risk Profile Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Where you complete a risk-tolerance questionnaire, your responses are used solely to tailor the illustrative planning scenarios presented to you and do not constitute regulated investment advice within the meaning of applicable securities law.</p></div>
+      </details>
+      <details class="clause" id="sec-37b">
+        <summary><span class="idx">37</span> Budget Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Your composite budget, comprising income, expense, goal and investment inputs, is treated as a single sensitive financial record. Access to this record within our systems is restricted under the role-based access controls described in Part XIV.</p></div>
+      </details>
+
+      <details class="clause" id="sec-106">
+        <summary><span class="idx">106</span> Calculator, Optimiser &amp; Planning Inputs <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>Our calculators, optimisers (including the AlphaPack Grey Wolf Optimizer), backtesters and projection tools require you to enter numerical parameters so that a computation can be performed. These <strong>calculator inputs</strong> typically include the capital amount you are considering, the investment horizon, an expected rate of return, an assumed volatility or standard deviation, a risk tolerance or drawdown constraint, inflation, tax assumptions, target allocation weights, rebalancing frequency, and any instrument-specific constraints you supply.</p>
+          <p>These inputs are used for <strong>one purpose: to compute and display the result you asked for</strong>. Specifically, we:</p>
+          <ul>
+            <li>process the values transiently in order to execute the calculation or optimisation you requested;</li>
+            <li>persist them <strong>only if and to the extent you choose to save a scenario</strong>, in which case they are stored against your account so you can return to it; and</li>
+            <li>retain an internal record of which calculator was used and which parameter <em>ranges</em> were supplied, so that we can debug incorrect outputs &mdash; <strong>without retaining the specific numeric values you entered</strong> unless you have saved the scenario.</li>
+          </ul>
+          <p>Calculator inputs describe <strong>hypothetical</strong> situations you construct for learning. They are not evidence of your actual holdings, your actual wealth, your actual intentions, or your actual risk profile, and they must never be read as a record of your financial affairs.</p>
+          <div class="callout">Because calculator inputs are frequently sensitive even when hypothetical, treat them as confidential. Do not enter a figure derived from a real, material financial commitment unless you are comfortable that it is stored. If you would prefer that nothing be retained, use the calculators without saving a scenario. See Section 72 for deletion.</div>
+        </div>
+      </details>
+    </section>
+
+
+<section class="part" id="part-9">
+      <div class="part-header"><span class="part-number">Part IX</span><h2>Analytics, ML &amp; Automated Decisions</h2></div>
+
+      <details class="clause" id="sec-37">
+        <summary><span class="idx">37b</span> Analytics <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We use privacy-conscious analytics tooling to understand which features are used, how long onboarding takes, and where users encounter friction. Analytics data is processed in aggregate wherever possible and is never sold to data brokers.</p></div>
+      </details>
+      <details class="clause" id="sec-38">
+        <summary><span class="idx">38</span> Crash Reports <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>When the mobile application encounters an unhandled exception, a crash report containing a stack trace, device model, and OS version is transmitted to our engineering team to diagnose and resolve the underlying defect. Crash reports are automatically purged after ninety days.</p></div>
+      </details>
+      <details class="clause" id="sec-39">
+        <summary><span class="idx">39</span> Error Logs <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Server-side error logs capture the request path, response status, and a truncated error message to support debugging. Logs are access-restricted to on-call engineering personnel and are retained for a maximum of one hundred eighty days.</p></div>
+      </details>
+      <details class="clause" id="sec-40">
+        <summary><span class="idx">40</span> Performance Metrics <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We collect aggregate performance metrics, including page load time and API response latency, to maintain the reliability targets described in our service-level commitments.</p></div>
+      </details>
+      <details class="clause" id="sec-41">
+        <summary><span class="idx">41</span> Machine Learning Data <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Our internally developed expense-categorization model is trained on de-identified transaction descriptions and merchant category codes, with direct identifiers such as account numbers and names removed prior to any training run.</p></div>
+      </details>
+      <details class="clause" id="sec-44">
+        <summary><span class="idx">44</span> Security Monitoring <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We continuously monitor authentication attempts, API traffic patterns, and account activity for indicators of compromise, using automated alerting integrated with our incident response process described in Part XIV.</p></div>
+      </details>
+      <details class="clause" id="sec-45">
+        <summary><span class="idx">45</span> Fraud Detection <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We process device, network and behavioral signals to detect fraudulent account creation, credential-stuffing attacks, and payment fraud, relying on our legitimate interest in protecting the Service and its users under GDPR Article 6(1)(f).</p></div>
+      </details>
+      <details class="clause" id="sec-46">
+        <summary><span class="idx">46</span> Abuse Prevention <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We reserve the right to review account activity that our automated systems flag as potentially abusive, including attempts to circumvent rate limits or to misuse the AI assistant for purposes inconsistent with our Acceptable Use Policy.</p></div>
+      </details>
+      <details class="clause" id="sec-47">
+        <summary><span class="idx">47</span> Automated Decision Making <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>The Service generates automated budgeting recommendations, but does not make any decision producing legal or similarly significant effects concerning you without human involvement. Where you disagree with an automated categorization, you may manually override it at any time, and no automated output is used to grant or deny you access to credit, employment, insurance, or housing.</p></div>
+      </details>
+      <details class="clause" id="sec-48">
+        <summary><span class="idx">48</span> Profiling <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We construct a limited behavioral profile consisting of your declared financial goals and spending categories in order to personalize the budgeting suggestions you see. You may object to this profiling at any time through the mechanism described in Part XIII, Section 79.</p></div>
+      </details>
+      <details class="clause" id="sec-49">
+        <summary><span class="idx">49</span> Personalization <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Personalization features, such as tailored savings tips and reminders, are enabled by default but may be disabled from your notification and personalization settings without affecting your access to the core Service.</p></div>
+      </details>
+    </section>
+
+
+<section class="part" id="part-10">
+      <div class="part-header"><span class="part-number">Part X</span><h2>Communications &amp; Marketing</h2></div>
+
+      <details class="clause" id="sec-50">
+        <summary><span class="idx">50</span> Communications <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We send transactional communications, including account verification messages, security alerts, and service notices, which are necessary for the operation of the Service and cannot be opted out of while your account remains active.</p></div>
+      </details>
+      <details class="clause" id="sec-51">
+        <summary><span class="idx">51</span> Marketing <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>With your consent, we send promotional communications about new features, financial-literacy content, and product updates by email and, where you have separately opted in, by WhatsApp message. You may withdraw consent at any time using the unsubscribe link in each communication or through account settings, in compliance with PECR and the CAN-SPAM Act.</p></div>
+      </details>
+      <details class="clause" id="sec-52">
+        <summary><span class="idx">52</span> Newsletter <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Subscription to our periodic financial-literacy newsletter is optional and separate from your core account communications preference, and may be managed independently through the newsletter preference center.</p></div>
+      </details>
+      <details class="clause" id="sec-53">
+        <summary><span class="idx">53</span> Customer Support <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>When you contact our support team, we process the content of your inquiry, any attachments you provide, and your account identifier to investigate and resolve your request, and we retain support correspondence for up to three years to maintain a service history and support quality assurance.</p></div>
+      </details>
+    </section>
+
+
+<section class="part" id="part-11">
+      <div class="part-header"><span class="part-number">Part XI</span><h2>Third-Party Services &amp; Processors</h2></div>
+
+      <details class="clause" id="sec-54">
+        <summary><span class="idx">54</span> Third Party Services <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We engage a limited number of carefully vetted sub-processors to operate the Service, each bound by a data processing agreement requiring confidentiality, security, and use of personal information solely on our documented instructions.</p></div>
+      </details>
+      <details class="clause" id="sec-55">
+        <summary><span class="idx">55</span> Cloud Hosting <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Our production infrastructure is hosted on Microsoft Azure, in data centers located in India and Ireland, and is subject to Microsoft's Azure Privacy Principles, SOC 2 Type II attestations, and ISO 27001 certification.</p></div>
+      </details>
+      <details class="clause" id="sec-56">
+        <summary><span class="idx">56</span> Payment Providers <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Subscription payments are processed by PCI DSS Level 1 certified payment processors. The Company does not store full payment card numbers on its own systems; we retain only a tokenized reference and the last four digits of your card for receipt and support purposes.</p></div>
+      </details>
+      <details class="clause" id="sec-57">
+        <summary><span class="idx">57</span> Email Providers <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Transactional and marketing emails are delivered through a reputable email service provider under contract, which processes recipient addresses and delivery metadata solely to transmit messages on our behalf.</p></div>
+      </details>
+      <details class="clause" id="sec-58">
+        <summary><span class="idx">58</span> Analytics Providers <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We use a privacy-focused analytics provider configured to minimize collection of directly identifying information and to honor "Do Not Track" and Global Privacy Control signals where technically feasible.</p></div>
+      </details>
+      <details class="clause" id="sec-59">
+        <summary><span class="idx">59</span> Meta Platforms <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Our relationship with Meta Platforms, Inc. for WhatsApp Business Platform and Facebook Login services is governed by Meta's Platform Terms, Developer Policies, and Data Processing Terms, each incorporated by reference into our sub-processor arrangements.</p></div>
+      </details>
+      <details class="clause" id="sec-61">
+        <summary><span class="idx">61</span> Groq (AI Inference) <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We transmit user prompts and relevant account context to <strong>Groq</strong>, our AI inference infrastructure provider, to generate assistant responses, under a Data Processing Addendum that restricts the use of API inputs to train third-party models absent separate written agreement. See Section 105 for what is transmitted and Section 43 for our commitments on model improvement.</p></div>
+      </details>
+
+      <details class="clause" id="sec-107">
+        <summary><span class="idx">107</span> Identity Provider (Clerk) <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p><strong>Clerk, Inc.</strong> acts as our sub-processor for authentication, session management and account identity, as described in full in Section 103. Clerk processes authentication data under a Data Processing Addendum with us and under its own privacy policy. We do not permit authentication data to be used to train third-party models or to be sold by the provider.</p>
+          <p>Clerk's processing is strictly limited to authenticating you to the Finexa AI Service. <strong>It is not connected to your brokerage, banking, depository or exchange accounts</strong>, and we cannot use it to transact on any third-party financial system on your behalf.</p>
+        </div>
+      </details>
+      <details class="clause" id="sec-62">
+        <summary><span class="idx">62</span> Google APIs <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Our use of Google APIs, including Google Sign-In, complies with the Google API Services User Data Policy, including its Limited Use requirements: data obtained through Google APIs is used only to provide or improve user-facing features, and is never used for advertising.</p></div>
+      </details>
+      <details class="clause" id="sec-63">
+        <summary><span class="idx">63</span> Microsoft Services <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Microsoft, as our cloud hosting provider, acts strictly as a data processor with respect to customer content stored on Azure, and its processing is governed by the Microsoft Product Terms and Azure Privacy Principles referenced above.</p></div>
+      </details>
+    </section>
+
+
+<section class="part" id="part-12">
+      <div class="part-header"><span class="part-number">Part XII</span><h2>Disclosure, Transfers &amp; Retention</h2></div>
+
+      <details class="clause" id="sec-64">
+        <summary><span class="idx">64</span> Data Sharing <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We share personal information only with sub-processors bound by contract, professional advisors under confidentiality obligations, and, where you provide explicit consent, third parties you designate. We do not sell personal information, and we do not share personal information with data brokers.</p></div>
+      </details>
+      <details class="clause" id="sec-65">
+        <summary><span class="idx">65</span> Data Disclosure <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We may disclose personal information where necessary to protect the rights, property, or safety of the Company, our users, or the public, including to investigate suspected fraud or violations of our Terms of Service.</p></div>
+      </details>
+      <details class="clause" id="sec-66">
+        <summary><span class="idx">66</span> Legal Requests <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We disclose personal information in response to valid legal process, such as a court order or subpoena, after verifying its legal sufficiency, and we will notify the affected user prior to disclosure unless prohibited by law or where doing so would create a risk to an investigation.</p></div>
+      </details>
+      <details class="clause" id="sec-67">
+        <summary><span class="idx">67</span> Government Requests <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We publish an annual transparency report summarizing the volume and nature of government requests for user data received, consistent with our commitment to accountability under Article 5(2) of the GDPR.</p></div>
+      </details>
+      <details class="clause" id="sec-68">
+        <summary><span class="idx">68</span> Business Transfers <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>If the Company is involved in a merger, acquisition, financing, or sale of assets, personal information may be transferred as part of that transaction, subject to a requirement that the receiving entity honor the commitments of this Policy.</p></div>
+      </details>
+      <details class="clause" id="sec-69">
+        <summary><span class="idx">69</span> Mergers <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>In a merger scenario, we will provide notice to affected users through the Service or by email describing any material change in the ownership or intended use of their personal information prior to that change taking effect.</p></div>
+      </details>
+      <details class="clause" id="sec-70">
+        <summary><span class="idx">70</span> Acquisitions <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Where the Company acquires another company or product, we will conduct due diligence to confirm the lawful basis under which any acquired personal information was originally collected before integrating it with our own systems.</p></div>
+      </details>
+      <details class="clause" id="sec-71">
+        <summary><span class="idx">71</span> Data Retention <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>We retain personal information only for as long as necessary to fulfill the purposes described in this Policy, or as required by applicable law. Our standard retention periods are summarized below.</p>
+          <table class="dtable">
+            <tr><th>Category</th><th>Retention Period</th></tr>
+            <tr><td>Active account profile data</td><td>Duration of account, plus 90 days after deletion</td></tr>
+            <tr><td>Financial and budgeting records</td><td>Duration of account, plus 90 days after deletion</td></tr>
+            <tr><td>AI conversation history</td><td>Until manually cleared, or account deletion</td></tr>
+            <tr><td>Support correspondence</td><td>3 years</td></tr>
+            <tr><td>Server logs</td><td>180 days</td></tr>
+            <tr><td>Crash reports</td><td>90 days</td></tr>
+            <tr><td>Marketing consent records</td><td>7 years (evidentiary purposes)</td></tr>
+          </table>
+        </div>
+      </details>
+      <details class="clause" id="sec-72">
+        <summary><span class="idx">72</span> Data Deletion <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>You may request deletion of your account and associated personal information at any time from account settings or by emailing our privacy contact at <strong>[privacy email]</strong>. Upon a verified deletion request, we will erase your personal information from production systems within thirty days and from encrypted backups within ninety days, except where retention is required to comply with a legal obligation.</p></div>
+      </details>
+    </section>
+
+
+<section class="part" id="part-13">
+      <div class="part-header"><span class="part-number">Part XIII</span><h2>Your Privacy Rights</h2></div>
+
+      <details class="clause" id="sec-73">
+        <summary><span class="idx">73</span> User Rights <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Depending on your jurisdiction, you may have some or all of the following rights with respect to your personal information: access, rectification, erasure, portability, restriction, objection, and withdrawal of consent. We honor requests from all users globally as a matter of policy, regardless of jurisdictional entitlement, unless doing so would be unlawful or unreasonably burdensome.</p></div>
+      </details>
+      <details class="clause" id="sec-74">
+        <summary><span class="idx">74</span> Right to Access <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>You may request a copy of the personal information we hold about you. We will respond within thirty days, or one month under GDPR Article 12(3), and will verify your identity before releasing any data.</p></div>
+      </details>
+      <details class="clause" id="sec-75">
+        <summary><span class="idx">75</span> Right to Rectification <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>You may correct inaccurate personal information directly within your account settings, or by contacting our support team where the relevant field is not self-service editable.</p></div>
+      </details>
+      <details class="clause" id="sec-76">
+        <summary><span class="idx">76</span> Right to Erasure <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>You may request erasure of your personal information as described in Section 72, subject to limited exceptions where retention is legally required, such as tax and accounting recordkeeping obligations.</p></div>
+      </details>
+      <details class="clause" id="sec-77">
+        <summary><span class="idx">77</span> Right to Portability <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>You may export your budgeting data, transaction history, and goal-planning records in a structured, machine-readable CSV or JSON format directly from your account's data export tool.</p></div>
+      </details>
+      <details class="clause" id="sec-78">
+        <summary><span class="idx">78</span> Right to Restrict Processing <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Where you contest the accuracy of your data or object to our processing, you may request that we restrict further processing of that data pending resolution, during which time we will only store the data and not otherwise use it.</p></div>
+      </details>
+      <details class="clause" id="sec-79">
+        <summary><span class="idx">79</span> Right to Object <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>You may object at any time to processing based on our legitimate interests, including profiling for personalization purposes, by contacting our privacy contact at <strong>[privacy email]</strong> or adjusting your personalization settings.</p></div>
+      </details>
+      <details class="clause" id="sec-80">
+        <summary><span class="idx">80</span> Right to Withdraw Consent <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Where processing is based on consent, you may withdraw that consent at any time with effect for the future, without affecting the lawfulness of processing carried out prior to withdrawal.</p></div>
+      </details>
+    </section>
+
+
+<section class="part" id="part-14">
+      <div class="part-header"><span class="part-number">Part XIV</span><h2>International Transfers &amp; Security</h2></div>
+
+      <details class="clause" id="sec-81">
+        <summary><span class="idx">81</span> International Data Transfers <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Personal information may be transferred to and processed in countries other than your own, including India, Ireland, and the United States. Where we transfer personal information out of the European Economic Area or the United Kingdom, we rely on the European Commission's Standard Contractual Clauses or the UK International Data Transfer Addendum, together with supplementary technical and organizational measures.</p></div>
+      </details>
+      <details class="clause" id="sec-82">
+        <summary><span class="idx">82</span> Encryption <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>All personal information is encrypted in transit using TLS 1.2 or higher, and at rest using AES-256 encryption. Encryption keys are managed through a dedicated key management service with restricted access and periodic rotation.</p></div>
+      </details>
+      <details class="clause" id="sec-83">
+        <summary><span class="idx">83</span> Security Measures <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>We maintain a comprehensive information security program aligned with ISO 27001 and OWASP guidelines, incorporating role-based access control, the principle of least privilege, mandatory multi-factor authentication for administrative access, network segmentation, firewalls, continuous intrusion detection, and API rate limiting.</p>
+          <div class="callout">Our security program is independently assessed, and a current SOC 2 Type II report is available to enterprise customers under a mutual non-disclosure agreement upon request to <strong>[security email]</strong>.</div>
+        </div>
+      </details>
+      <details class="clause" id="sec-84">
+        <summary><span class="idx">84</span> Vulnerability Management <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We conduct regular vulnerability scanning and engage independent third parties to perform penetration testing at least annually. Identified vulnerabilities are triaged by severity and remediated according to internally defined service-level timelines.</p></div>
+      </details>
+      <details class="clause" id="sec-85">
+        <summary><span class="idx">85</span> Backup Policy <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Production data is backed up on an encrypted, automated schedule and stored redundantly across geographically separate facilities to protect against data loss, with backup retention aligned to the schedule in Section 71.</p></div>
+      </details>
+      <details class="clause" id="sec-86">
+        <summary><span class="idx">86</span> Disaster Recovery <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We maintain a documented disaster recovery plan, tested at least annually, defining recovery point and recovery time objectives designed to restore Service availability with minimal data loss in the event of a significant infrastructure failure.</p></div>
+      </details>
+      <details class="clause" id="sec-87">
+        <summary><span class="idx">87</span> Incident Response <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>In the event of a confirmed personal data breach, we will notify affected users and, where legally required, the competent supervisory authority, without undue delay and, where feasible, within seventy-two hours of becoming aware of the breach, consistent with GDPR Article 33 and analogous DPDP Act requirements.</p></div>
+      </details>
+    </section>
+
+
+<section class="part" id="part-15">
+      <div class="part-header"><span class="part-number">Part XV</span><h2>Children, Changes &amp; Governance</h2></div>
+
+      <details class="clause" id="sec-88">
+        <summary><span class="idx">88</span> Children's Privacy <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>The Service is not directed to individuals under the age of 18 and we do not knowingly collect personal information from children. If we become aware that we have collected personal information from a child without appropriate parental consent, we will promptly delete it.</p></div>
+      </details>
+      <details class="clause" id="sec-89">
+        <summary><span class="idx">89</span> Parents' Rights <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>A parent or legal guardian who believes their child has provided personal information to us may contact our privacy contact at <strong>[privacy email]</strong> to request review and deletion of that information.</p></div>
+      </details>
+      <details class="clause" id="sec-90">
+        <summary><span class="idx">90</span> Third Party Links <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>The Service may contain links to third-party websites or resources. We are not responsible for the privacy practices of such third parties, and we encourage you to review their privacy policies before providing any personal information.</p></div>
+      </details>
+      <details class="clause" id="sec-91">
+        <summary><span class="idx">91</span> Changes to Privacy Policy <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We may update this Policy from time to time to reflect changes in our practices or applicable law. Material changes will be notified to you via email or an in-app notice at least fourteen days before taking effect, and the "Last Revised" date at the top of this Policy will always reflect the most recent version.</p></div>
+      </details>
+      <details class="clause" id="sec-92">
+        <summary><span class="idx">92</span> Contact Information <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>Questions or requests regarding this Policy or our data practices may be directed to:</p>
+          <table class="dtable">
+            <tr><th>Purpose</th><th>Contact</th></tr>
+            <tr><td>General privacy inquiries</td><td>[privacy email]</td></tr>
+            <tr><td>Security disclosures</td><td>[security email]</td></tr>
+            <tr><td>EU/EEA representative</td><td>[EU/EEA representative name and address]</td></tr>
+          </table>
+        </div>
+      </details>
+      <details class="clause" id="sec-93">
+        <summary><span class="idx">93</span> Grievance Officer <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>In accordance with the DPDP Act, we have appointed a Grievance Officer to address complaints from Data Principals. The Grievance Officer may be reached at <strong>[grievance email]</strong> and will acknowledge receipt of a complaint within seven days and endeavor to resolve it within thirty days.</p></div>
+      </details>
+      <details class="clause" id="sec-94">
+        <summary><span class="idx">94</span> Data Protection Officer <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>We have appointed a Data Protection Officer responsible for overseeing our compliance with the GDPR and UK GDPR, reachable at <strong>[dpo email]</strong>. You also have the right to lodge a complaint with your local supervisory authority.</p></div>
+      </details>
+      <details class="clause" id="sec-95">
+        <summary><span class="idx">95</span> Governing Law <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>This Policy is governed by the laws of India, without regard to conflict of law principles, without prejudice to any mandatory consumer-protection or data-protection rights you may have under the law of your habitual residence.</p></div>
+      </details>
+      <details class="clause" id="sec-96">
+        <summary><span class="idx">96</span> Dispute Resolution <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Any dispute arising out of or relating to this Policy shall first be addressed through good-faith negotiation between the parties before either party initiates formal proceedings.</p></div>
+      </details>
+      <details class="clause" id="sec-97">
+        <summary><span class="idx">97</span> Arbitration <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>Where negotiation does not resolve a dispute within sixty days, either party may refer the matter to binding arbitration seated in Bengaluru, India, conducted by a sole arbitrator in accordance with the Arbitration and Conciliation Act, 1996, in the English language.</p></div>
+      </details>
+      <details class="clause" id="sec-98">
+        <summary><span class="idx">98</span> Entire Agreement <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>This Policy, together with our Terms of Service and any applicable Data Processing Addendum, constitutes the entire agreement between you and the Company regarding the processing of your personal information, and supersedes any prior understanding on that subject.</p></div>
+      </details>
+      <details class="clause" id="sec-99">
+        <summary><span class="idx">99</span> Severability <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body"><p>If any provision of this Policy is held to be invalid or unenforceable by a court or authority of competent jurisdiction, that provision shall be limited or eliminated to the minimum extent necessary, and the remaining provisions of this Policy shall remain in full force and effect.</p></div>
+      </details>
+      <details class="clause" id="sec-100">
+        <summary><span class="idx">100</span> Final Statement <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+<div class="clause-body"><p>We are committed to earning and maintaining your trust through transparent, lawful, and secure handling of your personal information. Thank you for trusting Finexa AI with your financial planning journey.</p></div>
+      </details>
+    </section>
+
+    <section class="part" id="part-16">
+      <div class="part-header"><span class="part-number">Part XVI</span><h2>Terms of Use &amp; AI Limitations</h2></div>
+
+      <div class="callout" style="margin:0 0 1.1rem;"><strong>These Terms constitute a binding agreement between you and the Company</strong> and govern your access to and use of the Service. By creating an account or using the Service, you accept these Terms. These Terms incorporate <strong>Part I (Financial Warning &amp; Risk Disclaimer)</strong>, which forms an integral part of this agreement. If you do not accept any part of this document, you must stop using the Service immediately and delete your account.</div>
+
+      <details class="clause" id="sec-t-1" open>
+        <summary><span class="idx">T1</span> Acceptance of these Terms <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>These Terms of Use and AI Limitations (the &ldquo;Terms&rdquo;) are a <strong>binding legal agreement</strong> between you and Finexa AI (the &ldquo;Company&rdquo;). They govern your access to and use of the web application, mobile applications, conversational assistant, quant academy, calculators, optimisers and simulation tools &mdash; collectively the <strong>&ldquo;Service&rdquo;</strong> &mdash; including any content, output or data made available through it.</p>
+          <p>By creating an account, acknowledging the risk disclosures, or otherwise using the Service, you confirm that you have <strong>read and understood Part I, Parts II to XV, and Part XVI</strong> in full; that you are at least <strong>18 years old</strong> or the age of majority in your jurisdiction; that you will not use the Service in breach of applicable law or in a manner that causes harm to another person; and that you accept the limitations described in this Part.</p>
+          <div class="callout"><strong>Do not skip Part I.</strong> The risk disclosures describe the real and substantial possibility that you could lose money, including your entire capital, as a result of decisions you make in reliance on this platform.</div>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-t-2">
+        <summary><span class="idx">T2</span> Educational, Informational and Analytical Tools Only <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>The Service provides <strong>educational material, informational datasets, analytical tooling and quantitative simulation</strong>. That is its entire purpose. It is deliberately designed so that it does not, and cannot, tell you what to do with your money.</p>
+          <p>The Company is <strong>not</strong> a SEBI-registered Investment Advisor, Research Analyst, Investment Manager, Portfolio Manager, Broker, Sub-Broker, Custodian or Clearing Member; <strong>not</strong> a registered fiduciary; <strong>not</strong> a certified financial planner, CFP&reg;, Chartered Financial Analyst or licensed adviser of any kind; and <strong>not</strong> a broker-dealer, bank or depository. No output constitutes advice, a recommendation, an offer, a solicitation, an inducement, or a personalisation.</p>
+          <p>Accordingly, <strong>none of the following is a financial guarantee, a promise of return, or an assurance of outcome</strong>: any conversational or written AI response; any stock, index, commodity, currency or digital-asset forecast or price prediction; any portfolio allocation, weighting, optimiser output or rebalancing schedule (including the AlphaPack Grey Wolf Optimizer); any backtest, equity curve, drawdown statistic, Monte-Carlo simulation, risk score or projection; any figure produced by any calculator; and any educational article, glossary, tutorial, quiz or course module.</p>
+          <p>Nothing is tailored to your financial situation, objectives, risk tolerance, horizon, tax position, liabilities or circumstances, and nothing takes account of your holdings, net worth, debts or other assets. <strong>The Service has no connection to any brokerage account and cannot see, access or move any of your assets.</strong> See Section W2.</p>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-t-3">
+        <summary><span class="idx">T3</span> AI Hallucination, Fabrication and Confident Error <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p><strong>Large language models and the algorithmic engines behind the Service can and do produce output that is wrong.</strong> This is a fundamental property of the technology, not an occasional defect. You must assume any output you read may be incorrect until you have independently verified it. The full catalogue of failure modes is set out in Section W6; the additional limitations below apply specifically to your use of the Service.</p>
+          <p>You acknowledge that the assistant may generate content that is offensive, irrelevant, harmful, or legally or medically inaccurate; that it may respond inconsistently to the same input; and that it has no mechanism to detect or correct its own error. <strong>We do not review, vet or approve model output before it reaches you.</strong></p>
+          <p><strong>There is no guarantee, express or implied, of the accuracy, completeness, correctness, timeliness, fitness for purpose or profitability of any output.</strong> We make no warranty as to output quality and, to the fullest extent permitted by law, disclaim all responsibility for it. See Section T17.</p>
+          <div class="callout"><strong>Never act on an unverified AI output.</strong> Verify every material fact against a primary source before you commit capital. If you cannot verify it, do not act on it.</div>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-t-4">
+        <summary><span class="idx">T4</span> Mathematical, Statistical and Market-Data Error <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p><strong>No calculation, projection, optimisation or backtest displayed on the Service is guaranteed to be mathematically correct, statistically sound, or free of implementation defects.</strong> Sources of numerical error include:</p>
+          <ul>
+            <li><strong>Arithmetic and coding defects</strong> &mdash; off-by-one errors, incorrect formulas, unit-conversion mistakes, rounding accumulation, and errors in the code behind a calculation.</li>
+            <li><strong>Input errors and unit mismatches</strong> &mdash; entering 15 for 15%, lakhs for crores, a monthly figure for an annual one. Our calculators frequently assume a unit and a compounding frequency; <strong>check them against your own input.</strong></li>
+            <li><strong>Invalid or missing assumptions</strong> &mdash; calculations proceed on whatever you supply. An unrealistic expected return or understated volatility will produce a confident, useless result.</li>
+            <li><strong>Data-quality error</strong> &mdash; bad ticks, missing history, inconsistent price adjustment, survivorship in the instrument universe, and misaligned corporate actions.</li>
+            <li><strong>Statistically fragile output</strong> &mdash; Sharpe ratios, alpha, beta and similar metrics computed over short windows are unstable and appear meaningful when they are not.</li>
+            <li><strong>Optimiser failure</strong> &mdash; metaheuristic solvers can converge to a poor local solution, fail to satisfy your constraints, or return an internally inconsistent weight vector.</li>
+            <li><strong>Model risk</strong> &mdash; the assumption that past relationships persist is unverified, and can fail without warning.</li>
+          </ul>
+          <div class="callout">Do not treat a precise-looking number as a precise number. <strong>Recompute any figure you intend to rely on and compare.</strong> If you cannot reproduce the result, you do not understand it.</div>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-t-5">
+        <summary><span class="idx">T5</span> Outdated, Delayed and Incomplete Data <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>Market data is obtained from third-party market news and market data APIs (see Section 104) and is typically <strong>delayed</strong>. Model weights and reference data carry knowledge cut-offs. Both mean what you see may not reflect the current state of the world.</p>
+          <p>We do not warrant that quotes are real-time or executable; that data is complete across instruments, exchanges and asset classes; that corporate actions have been applied correctly; that a ticker maps to the entity you assume; that news is accurate or current; that regulatory, tax or legal information reflects the position in force today; or that the Service reflects a corporate action announced after the last refresh.</p>
+          <p>Third-party data may be <strong>corrected, restated or withdrawn at any time</strong> with no obligation to notify you.</p>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-t-6">
+        <summary><span class="idx">T6</span> Stock Forecasts Carry No Guarantee <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>Any stock forecast, price target, projected return, scenario analysis, sentiment reading or directional view is a <strong>statistical or generative inference drawn from historical data and general models</strong>. It is <strong>not</strong> a prediction of what will happen.</p>
+          <ul>
+            <li><strong>No forecast is accurate, reliable or guaranteed.</strong> Forecasts will be wrong, sometimes badly and sometimes immediately. We accept responsibility for producing the forecast; we do not accept responsibility for its being correct.</li>
+            <li><strong>Accuracy is not the same as usefulness.</strong> A forecast that is right may be right for the wrong reason and may not be actionable in size, timing, cost or risk terms.</li>
+            <li><strong>Forecasts are not tailored</strong> and are generated with no knowledge of your holdings, cost basis, tax position, liquidity needs or risk capacity.</li>
+            <li><strong>Confidence intervals are frequently optimistic.</strong> Real outcomes routinely fall outside them.</li>
+            <li><strong>Repeating an analysis does not increase reliability.</strong> Re-running a forecast with slightly different parameters can produce a materially different answer, which illustrates rather than resolves the uncertainty.</li>
+          </ul>
+          <div class="callout"><strong>A forecast is not a recommendation and never was.</strong> Never buy, sell, hold, short or leverage a position on the basis of an AI-generated forecast, price target or scenario output alone.</div>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-t-7">
+        <summary><span class="idx">T7</span> AlphaPack Grey Wolf Optimizer: Simulation Only <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>The <strong>AlphaPack Grey Wolf Optimizer (GWO)</strong> searches for candidate portfolio weight vectors that maximise a stated objective subject to the constraints you supply. Its purpose is <strong>quantitative education and exploration of the optimisation landscape</strong>. Its limitations are described in full in Section W8 and are incorporated here. In summary:</p>
+          <ul>
+            <li>An optimiser output is the <strong>mathematically optimal solution to the objective and constraints you gave it</strong>. It is not a recommended portfolio, an advised allocation, an approved mandate, or a model portfolio you should mirror.</li>
+            <li>It does not know whether your expected returns are achievable, whether your correlations are accurate or will persist, whether the instruments are liquid or borrowable, or your tax situation, liabilities, cash needs, horizon or genuine risk capacity.</li>
+            <li><strong>The problem is driven entirely by your assumptions.</strong> A precise, converged allocation vector is a statement about your inputs, not about the market. Two users supplying different inputs receive materially different allocations; both are &ldquo;optimal&rdquo; for what was asked.</li>
+            <li>We do not manage portfolios, rebalance them, monitor them, or take discretion over them, and we have no authority or mechanism to act on any allocation.</li>
+            <li>We do not charge a fee in relation to an allocation, receive any inducement in connection with one, or benefit from the instruments an optimiser favours.</li>
+          </ul>
+          <div class="callout"><strong>Never treat an AlphaPack allocation as a trade list.</strong> It is a teaching instrument. You remain solely responsible for verifying every input, assessing every instrument, and accepting every consequence of every position you actually take.</div>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-t-8">
+        <summary><span class="idx">T8</span> Calculator and Projection Outputs Are Illustrative Only <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>Our calculators, compound-growth projections, SIP and lumpsum estimators, goal planners, EMI tools, tax estimators, breakeven analysers and currency converters return <strong>illustrative arithmetic</strong> based on the values you enter and the assumptions documented on the tool.</p>
+          <ul>
+            <li>Projections are <strong>mathematical extrapolations, not predictions</strong>. Constant compounding of a constant return does not happen in real markets.</li>
+            <li>Outputs generally <strong>omit</strong> taxes, fees, expenses, transaction costs, stamp duty, GST, custody charges, slippage and market impact, unless explicitly stated otherwise.</li>
+            <li>Inputs are your own. We do not validate them, and we do not know whether your expected return or inflation figure is realistic.</li>
+            <li>Unit and compounding-frequency assumptions vary by tool. <strong>Verify that a figure entered as a percentage was interpreted as a percentage.</strong></li>
+            <li>Tax, legal and regulatory outputs are <strong>general information, not professional advice</strong>, and do not account for your circumstances, exemptions, regimes or losses.</li>
+          </ul>
+          <div class="callout">A calculator tells you what follows <em>if</em> your assumptions hold. It cannot tell you whether they will. Never treat a calculator result as evidence that an outcome is achievable.</div>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-t-9">
+        <summary><span class="idx">T9</span> The AI Assistant Is Not a Licensed Professional <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>The conversational assistant is a general-purpose large language model interface. It is <strong>not</strong> a SEBI-registered Investment Advisor or Research Analyst, <strong>not</strong> a certified financial planner, <strong>not</strong> a Chartered Accountant, <strong>not</strong> a lawyer, and <strong>not</strong> a licensed professional of any kind. It has no professional indemnity insurance, no regulatory registration, no fiduciary duty, and no capacity to be held professionally accountable.</p>
+          <p>The assistant therefore does not know your identity, holdings, income, liabilities, objectives, risk tolerance or tax position; does not ask suitability questions before answering, because it is not permitted to give a personal recommendation in the first place; does not carry out any duty of care, record your objectives, or document a recommendation; may answer any question put to it, including questions it should decline; and must not be used for emergency, crisis or time-critical decisions.</p>
+          <div class="callout">Consult a <strong>licensed, registered and accountable professional</strong> &mdash; a SEBI-registered Investment Advisor or Research Analyst, a Certified Financial Planner, a Chartered Accountant, or a qualified lawyer &mdash; for advice on your specific situation. A general AI assistant cannot give it, and we do not.</div>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-t-10">
+        <summary><span class="idx">T10</span> Your Duty to Conduct Your Own Research <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p><strong>Before you commit capital, you must conduct your own due diligence (&ldquo;DYOR&rdquo;). This is your responsibility alone.</strong> The complete verification checklist is set out in Section W7 and is incorporated here.</p>
+          <p>In addition, where you use the AlphaPack optimiser, calculators or backtests, you must verify the instrument's identity, the primary disclosure from the issuer or exchange, the current SEBI registration of any counterparty at <strong>www.sebi.gov.in</strong>, and the liquidity and settlement mechanics of anything you intend to trade. Where you rely on an AI-generated claim, figure, forecast or allocation, you must verify it against a primary source <strong>every single time</strong>.</p>
+          <div class="callout"><strong>The burden of verification is entirely yours.</strong> If you commit capital without verifying the facts, you do so at your own risk and with no recourse to the Company. Never invest money you cannot afford to lose in full.</div>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-t-11">
+        <summary><span class="idx">T11</span> Permitted Use <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>You may use the Service for <strong>personal, non-commercial, educational purposes</strong>: learning concepts, exploring hypothetical scenarios, understanding optimisation and risk mathematics, and running calculations for your own understanding.</p>
+          <p>You agree that you will read Part I and the relevant clause of this Part before relying on any output; independently verify every material figure before acting on it; maintain the security of your account credentials and notify us immediately if you suspect compromise; comply with all applicable securities, tax and anti-money-laundering law in your jurisdiction; respect third-party intellectual property rights; and not treat the Service as a source of truth for any regulatory, tax or legal question.</p>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-t-12">
+        <summary><span class="idx">T12</span> Prohibited Conduct <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>You must <strong>not</strong>:</p>
+          <ul>
+            <li>use the Service to solicit, induce, pressure, entice or defraud any other person into depositing, trading or investing;</li>
+            <li>represent the Service, or any output of it, as licensed, registered, regulated, certified, approved or endorsed by SEBI, any exchange, any regulator or any government authority;</li>
+            <li>present any output as a personal recommendation, solicitation, offer, or a call to action to buy, sell or hold;</li>
+            <li>imply an ongoing advisory, discretionary, fiduciary or managed-account relationship with us;</li>
+            <li>submit financial or brokerage credentials, banking details, card data, OTPs, private keys or seed phrases &mdash; see Section 101;</li>
+            <li>attempt to gain unauthorised access to the Service, another user's account, or any connected system, including by circumvention, credential stuffing, scraping at scale, or exploiting a vulnerability;</li>
+            <li>interfere with, disrupt, overload, probe or reverse-engineer the Service, or use automated means to extract content in breach of these Terms or applicable law;</li>
+            <li>redistribute, resell, sublicense, republish or commercially exploit the Service or its content without written permission, except for quoting a limited extract with clear attribution and a link to the source;</li>
+            <li>remove, obscure or alter any copyright, trademark, attribution or legal notice;</li>
+            <li>use the Service for any unlawful purpose, in violation of any applicable regulation, or in a manner that infringes the rights of another person;</li>
+            <li>impersonate us or any person, or misrepresent your affiliation with us; or</li>
+            <li>transmit malware, or attempt to inject code or unauthorised scripts into the Service.</li>
+          </ul>
+          <div class="callout">Automated access and large-scale extraction degrade the Service for everyone and may breach third-party data licensing terms. We rate-limit and block such access, and may terminate accounts that do so.</div>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-t-13">
+        <summary><span class="idx">T13</span> Availability, Maintenance and Changes to the Service <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>We provide the Service on an <strong>&ldquo;as is&rdquo; and &ldquo;as available&rdquo; basis</strong>. We do not warrant that it will be available, uninterrupted, timely, error-free, or free of malware or harmful components.</p>
+          <p>We may modify, suspend, limit or discontinue any feature, model, calculator, data source or the Service as a whole, with or without notice, to maintain or improve it, to comply with law, or for security reasons. We may change or remove models, adjust algorithm parameters, and revise content at any time without notice, and such changes may alter prior outputs. We do not guarantee a minimum level of availability or continuity of any specific feature or model. <strong>Do not depend on the Service for any time-critical or mission-critical purpose.</strong></p>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-t-14">
+        <summary><span class="idx">T14</span> Intellectual Property <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>All content, software, models, algorithms, code, designs, trade marks, documentation and other materials in the Service &mdash; including the <strong>Finexa AI</strong> name and logo, the <strong>AlphaPack</strong> and <strong>Grey Wolf Optimizer</strong> tools, and all underlying intellectual property &mdash; are owned by or licensed to the Company and are protected by intellectual property law.</p>
+          <p>We grant you a limited, revocable, non-exclusive, non-transferable licence to access and use the Service for your personal educational purposes, for the duration of your use and subject to these Terms. This licence does not transfer ownership of anything. Third-party names, marks, indices and data remain the property of their respective owners. No permission is granted to use our marks in a way that suggests endorsement, affiliation or approval.</p>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-t-15">
+        <summary><span class="idx">T15</span> Third-Party Content, Links and Data <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>Content, links, news, data and information made available through the Service originate from third parties, including market data and news API providers, public filings and websites. We do <strong>not</strong> control them, do not endorse them, and make <strong>no representation or warranty</strong> as to their accuracy, currency, completeness, legality or fitness for any purpose.</p>
+          <p>We accept no responsibility for errors, omissions, delays, corrections or restatements in third-party data; incorrect index constituents, mislabelled tickers, or corporate actions applied incorrectly; data attributed to the wrong entity, currency, exchange or time zone; third-party model behaviour, changes, outages or unavailability; content originating from user-submitted or publicly available sources; or the content, security, availability or privacy practices of any third-party site we link to. You are responsible for evaluating the sufficiency, accuracy and appropriateness of third-party content, and for any decision you take based on it.</p>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-t-16">
+        <summary><span class="idx">T16</span> No Fiduciary, Advisory or Agency Relationship <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>Nothing in the Service, and nothing in your use of it, creates a relationship of any of the following kinds, and you must not represent that one exists:</p>
+          <ul>
+            <li><strong>No fiduciary relationship.</strong> We owe you no fiduciary duty, do not act in your interests as a fiduciary would, and are not prohibited from acting in our own interests.</li>
+            <li><strong>No advisory relationship.</strong> We are not your advisor and have not accepted an engagement to act for you.</li>
+            <li><strong>No agency or authority.</strong> You do not authorise us to act, instruct, transact or bind you. We have no authority over any account of yours.</li>
+            <li><strong>No managed account.</strong> We do not manage money, hold assets, custody securities, execute orders, rebalance portfolios, or exercise discretion over your decisions.</li>
+            <li><strong>No suitability or best-interest obligation.</strong> No suitability assessment has been performed for you.</li>
+            <li><strong>No employment, partnership or joint venture.</strong></li>
+          </ul>
+          <p>We provide the Service to you as an <strong>independent provider on a non-exclusive basis</strong>, for a broad user base, on identical terms. We may offer the same functionality to anyone else and may publish content discussing instruments you are considering.</p>
+          <div class="callout">Because no relationship exists, <strong>you cannot hold us to the standard of care owed by a licensed professional</strong>, and no output may be treated as personalised to you.</div>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-t-17">
+        <summary><span class="idx">T17</span> Disclaimer of Warranties and Limitation of Liability <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p><strong>No warranty.</strong> To the fullest extent permitted by law, the Service and every part of it are provided <strong>&ldquo;as is&rdquo; and &ldquo;as available&rdquo;, without warranties of any kind</strong>, whether express, implied, statutory or otherwise &mdash; including any implied warranty of merchantability, satisfactory quality, fitness for a particular purpose, non-infringement, accuracy, completeness, timeliness, or that the Service will be uninterrupted, secure or error-free.</p>
+          <p>We specifically <strong>do not warrant</strong> that any output, forecast, allocation, calculation, simulation, projection or commentary is accurate, correct, complete, current or reliable; that any output is free from error, hallucination, fabrication, bias or defect; that any output will be profitable or achieve any return; that the Service will be available at any particular time; or that third-party data, models, links or content will be accurate, current or free of harmful material.</p>
+          <p><strong>Limitation of liability.</strong> To the fullest extent permitted by law, and notwithstanding anything else in these Terms:</p>
+          <ul>
+            <li>We are <strong>not liable for any trading or investment loss</strong> you incur, including any loss arising from acting on, or failing to act on, any output. Trading losses are your own.</li>
+            <li>We are <strong>not liable for indirect, incidental, special, consequential, exemplary or punitive damages</strong>, or for loss of profit, revenue, opportunity, goodwill, anticipated savings, data or business interruption, however caused and characterised, even if we were advised such damage was possible.</li>
+            <li>We are <strong>not liable for loss arising from our reliance on third-party data, models, APIs or content</strong>, including market data errors, delays and corrections.</li>
+            <li>We are <strong>not liable for decisions you make, or fail to make</strong>, including the failure to act on a risk we disclosed or a signal we displayed.</li>
+            <li>Our <strong>total aggregate liability</strong> is limited to the greater of <strong>INR 1,000</strong> or the total amount you have paid us for the Service in the preceding twelve (12) months.</li>
+          </ul>
+          <p><strong>Nothing in these Terms excludes or limits liability that cannot lawfully be excluded or limited</strong>, including liability for fraud or fraudulent misrepresentation, death or personal injury caused by negligence, or any other liability that applicable law does not permit to be waived. Read Section W11 together with this clause: you assume 100% of the risk and 100% of the liability.</p>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-t-18">
+        <summary><span class="idx">T18</span> Indemnity <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>You agree to indemnify, defend and hold harmless the Company, its directors, officers, employees, contractors and affiliates from and against any and all claims, losses, liabilities, damages, costs and expenses &mdash; including reasonable legal and professional fees &mdash; arising out of or connected with:</p>
+          <ul>
+            <li>your use of the Service in breach of these Terms or applicable law;</li>
+            <li>your use of any output to make an investment, trading or financial decision, or your failure to verify any output against a primary source;</li>
+            <li>your breach of any third-party intellectual property or data licence, including in respect of automated extraction;</li>
+            <li>any misrepresentation you make of the Service, or of any relationship with us, to any third party; or</li>
+            <li>your solicitation of, or inducement of, any other person to trade or invest using the Service or its output.</li>
+          </ul>
+          <p>This indemnity survives termination of your access to the Service.</p>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-t-19">
+        <summary><span class="idx">T19</span> Account Suspension and Termination <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>You may stop using the Service at any time and may request deletion of your account as described in Section 72.</p>
+          <p>We may <strong>suspend or terminate</strong> your access, with or without notice, if we determine in our reasonable discretion that you have breached these Terms, particularly any prohibited conduct in Section T12; used the Service to commit fraud or to solicit others to trade or invest; attempted to breach security or interfere with the Service; provided false or deceptive information; or used the Service in a way that we are required to prevent by law or at the direction of a competent authority.</p>
+          <p>On termination, your right to use the Service ceases immediately. Sections that by their nature should survive &mdash; including Part I, Part XVI, the Privacy Policy, and all disclaimers, limitations of liability and indemnities &mdash; continue to apply.</p>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-t-20">
+        <summary><span class="idx">T20</span> Governing Law and Dispute Resolution <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p>These Terms, and any dispute arising out of or in connection with them or with the Service, are governed by the <strong>laws of India</strong>, without regard to its conflict-of-laws rules.</p>
+          <p><strong>Informal resolution.</strong> Before commencing proceedings, you agree to write to us and attempt to resolve the dispute informally. We will respond within a reasonable period.</p>
+          <p><strong>Arbitration.</strong> Any dispute not resolved informally shall be finally resolved by <strong>binding arbitration</strong> under the <strong>Arbitration and Conciliation Act, 1996</strong>, by a sole arbitrator appointed by mutual agreement, or failing agreement within thirty (30) days, by an arbitrator appointed in accordance with the said Act. The seat and venue of arbitration shall be <strong>Bengaluru, Karnataka, India</strong>. The proceedings, the award and any evidence disclosed are confidential. The language of the arbitration shall be English.</p>
+          <p><strong>Jurisdiction.</strong> Subject to the arbitration clause, the courts at <strong>Bengaluru, Karnataka</strong> have exclusive jurisdiction. Nothing in this clause limits your right to approach a regulator, a consumer forum, or the Cyber Crime portal at any time, or to seek urgent interim or injunctive relief from any court of competent jurisdiction.</p>
+        </div>
+      </details>
+
+      <details class="clause" id="sec-t-21">
+        <summary><span class="idx">T21</span> Changes, Severability and General Provisions <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+        <div class="clause-body">
+          <p><strong>Changes.</strong> We may revise these Terms from time to time. We will publish the revised version on this page and update the &ldquo;Last Updated&rdquo; date shown at the top of this document. Where a change is material &mdash; in particular any change to a risk disclosure or to the limitations of liability &mdash; we will provide additional notice by email or in-app notice before it takes effect, and we may ask you to re-acknowledge. <strong>Continuing to use the Service after a change takes effect means you accept the revised Terms.</strong></p>
+          <p><strong>Severability.</strong> If any provision is held invalid, illegal or unenforceable, it is modified to the minimum extent necessary to make it enforceable, or if it cannot be so modified, it is severed. The remaining provisions continue in full force.</p>
+          <p><strong>No waiver.</strong> A failure or delay by us to enforce a provision is not a waiver of it, nor does it prevent subsequent enforcement.</p>
+          <p><strong>Assignment.</strong> You may not assign these Terms without our written consent. We may assign them to an affiliate or successor in connection with a reorganisation, merger or sale, and these Terms will continue to apply to you.</p>
+          <p><strong>Entire agreement.</strong> These Terms, together with Part I (Financial Warning &amp; Risk Disclaimer) and Parts II to XV (Privacy Policy), constitute the entire agreement between you and the Company concerning the Service and supersede all prior statements regarding it. <strong>Nothing in these Terms, and nothing in any output of the Service, creates an obligation or entitlement that is not expressly stated here.</strong></p>
+          <p><strong>Notices.</strong> Notices we send you are given by email to the address on your account, or by in-app notice. Notices you send us must be in writing to the address in the footer of this document.</p>
+        </div>
+      </details>
+    </section>
+
+    <div class="ack-card" id="ackCard">
+      <h2>Acknowledgment of Risk</h2>
+      <p>Finexa AI does not provide licensed financial advice. Confirm that you have read and understood the risk disclosures in Part I, the Privacy Policy in Parts II to XV, and the Terms of Use and AI limitations in Part XVI before continuing.</p>
+      <div class="ack-row">
+        <label class="ack-check" for="ackCheck">
+          <input type="checkbox" id="ackCheck">
+          <span>I have read and accept the Financial Warning &amp; Risk Disclaimer, the Privacy Policy and the Terms of Use, and I understand that I bear sole responsibility for all financial decisions.</span>
+        </label>
+        <button class="ack-btn" id="ackBtn" type="button" disabled>I Understand and Acknowledge the Risks</button>
+      </div>
+      <p class="ack-status" id="ackStatus" role="status" aria-live="polite"></p>
+    </div>
+
+    <footer class="site-footer">
+<div class="foot-links">
+        <a href="#part-1">Financial Warning</a>
+        <a href="#part-2">Privacy Policy</a>
+        <a href="#part-13">Your Rights</a>
+        <a href="#part-16">Terms of Use</a>
+        <a href="#sec-92">Contact</a>
+        <a href="#sec-93">Grievance Officer</a>
+      </div>
+      <p>&copy; 2026 Finexa AI. All rights reserved.</p>
+      <p>HSR Layout, Bengaluru, Karnataka 560102, India</p>
+    </footer>
+  </main>
+</div>
+
+<button id="back-to-top" aria-label="Back to top">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<script>
+(function(){
+  // Theme toggle
+  var root = document.documentElement;
+  var toggle = document.getElementById('theme-toggle');
+  var stored = null;
+  try { stored = localStorage.getItem('finexa-ai-theme'); } catch(e){}
+  var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  if (stored === 'dark' || (!stored && prefersDark)) {
+    root.setAttribute('data-theme','dark');
+    toggle.setAttribute('aria-pressed','true');
+  }
+  toggle.addEventListener('click', function(){
+    var isDark = root.getAttribute('data-theme') === 'dark';
+    if (isDark) {
+      root.removeAttribute('data-theme');
+      toggle.setAttribute('aria-pressed','false');
+      try { localStorage.setItem('finexa-ai-theme','light'); } catch(e){}
+    } else {
+      root.setAttribute('data-theme','dark');
+      toggle.setAttribute('aria-pressed','true');
+      try { localStorage.setItem('finexa-ai-theme','dark'); } catch(e){}
+    }
+  });
+
+  // Progress bar
+  var bar = document.getElementById('progress-bar');
+  function updateProgress(){
+    var h = document.documentElement;
+    var scrollTop = h.scrollTop || document.body.scrollTop;
+    var scrollHeight = (h.scrollHeight || document.body.scrollHeight) - h.clientHeight;
+    var pct = scrollHeight > 0 ? (scrollTop / scrollHeight) * 100 : 0;
+    bar.style.width = pct + '%';
+  }
+  document.addEventListener('scroll', updateProgress, {passive:true});
+  updateProgress();
+
+  // Back to top
+  var backBtn = document.getElementById('back-to-top');
+  document.addEventListener('scroll', function(){
+    if ((document.documentElement.scrollTop||document.body.scrollTop) > 500) {
+      backBtn.classList.add('show');
+    } else {
+      backBtn.classList.remove('show');
+    }
+  }, {passive:true});
+  backBtn.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+
+  // TOC active state highlighting
+  var tocLinks = Array.prototype.slice.call(document.querySelectorAll('[data-toc]'));
+  var parts = Array.prototype.slice.call(document.querySelectorAll('.part'));
+  if ('IntersectionObserver' in window) {
+    var observer = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        var id = entry.target.getAttribute('id');
+        var link = document.querySelector('.toc-list a[href="#' + id + '"]');
+        if (!link) return;
+        if (entry.isIntersecting) {
+          tocLinks.forEach(function(l){ l.classList.remove('active'); });
+          link.classList.add('active');
+        }
+      });
+    }, { rootMargin: '-15% 0px -70% 0px', threshold: 0 });
+    parts.forEach(function(p){ observer.observe(p); });
+  }
+
+  // Mobile TOC toggle
+  var mobileToggle = document.getElementById('mobile-toc-toggle');
+  var sidebar = document.querySelector('.sidebar');
+  if (window.innerWidth <= 980) { sidebar.classList.add('collapsed'); }
+  mobileToggle.addEventListener('click', function(){
+    var collapsed = sidebar.classList.toggle('collapsed');
+    mobileToggle.setAttribute('aria-expanded', String(!collapsed));
+  });
+
+  // Deep-link: open the relevant <details> if URL has a hash to a clause
+  function openTargetFromHash(){
+    var hash = window.location.hash;
+    if (!hash) return;
+    var target = document.querySelector(hash);
+    if (target && target.tagName === 'DETAILS') {
+      target.setAttribute('open','');
+    }
+  }
+window.addEventListener('hashchange', openTargetFromHash);
+  openTargetFromHash();
+
+  // Risk acknowledgment (persisted)
+  var ackCheck = document.getElementById('ackCheck');
+  var ackBtn   = document.getElementById('ackBtn');
+  var ackStatus= document.getElementById('ackStatus');
+  var ACK_KEY  = 'finexa-ai-ack-v1';
+  if (ackCheck && ackBtn && ackStatus) {
+    var acknowledged = false;
+    try { acknowledged = localStorage.getItem(ACK_KEY) === '1'; } catch(e){}
+    function render(){
+      if (acknowledged) {
+        ackCheck.checked = true;
+        ackBtn.disabled = false;
+        ackBtn.classList.add('done');
+        ackBtn.textContent = 'Acknowledged';
+        ackStatus.textContent = 'Your acknowledgment has been recorded on this device.';
+        ackStatus.classList.add('show');
+      } else {
+        ackCheck.checked = false;
+        ackBtn.disabled = true;
+        ackBtn.classList.remove('done');
+        ackBtn.textContent = 'I Understand and Acknowledge the Risks';
+        ackStatus.textContent = '';
+        ackStatus.classList.remove('show');
+      }
+    }
+    ackCheck.addEventListener('change', function(){
+      ackBtn.disabled = !ackCheck.checked;
+    });
+    ackBtn.addEventListener('click', function(){
+      if (!ackCheck.checked) return;
+      acknowledged = true;
+      try { localStorage.setItem(ACK_KEY, '1'); } catch(e){}
+      render();
+    });
+    render();
+  }
+})();
+</script>
 </body>
 </html>
